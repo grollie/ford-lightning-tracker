@@ -288,12 +288,16 @@ function rowHtml(l, opts) {
   const opts_ = opts || {};
   const accident = l.noAccidents ? 'Clean' : 'Reported';
   const proPower = l.proPower ? 'Yes' : '—';
+  const battery = l.extendedRangeBattery
+    ? '<span class="badge good">✓ Extended (9.6kW)</span>'
+    : '<span class="badge flat">Unconfirmed</span>';
   return `<tr>
     <td>${l.year || ''} ${l.trim ? esc(l.trim) : ''}</td>
     <td>${NUMBER.format(l.mileage)} mi</td>
     <td>${CURRENCY.format(l.price)}</td>
     <td>${esc(l.location || '—')}</td>
     <td>${proPower}</td>
+    <td>${battery}</td>
     <td>${accident}</td>
     <td>${esc(l.source || '—')}</td>
     ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory)}</td>` : ''}
@@ -315,7 +319,7 @@ function renderTable(el, listings, opts) {
   el.innerHTML = `<div class="table-scroll"><table>
     <thead><tr>
       <th>Vehicle</th><th>Mileage</th><th>Price</th><th>Location</th>
-      <th>Pro Power</th><th>Accidents</th><th>Source</th>
+      <th>Pro Power</th><th>Battery</th><th>Accidents</th><th>Source</th>
       ${trendCols}
       <th>First Seen</th><th>Listing</th>
     </tr></thead>
