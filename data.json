@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T08:35:38-04:00",
+  "lastUpdated": "2026-09-28T08:58:00-04:00",
   "criteria": {
     "alert": {
       "maxMileage": 20000,
@@ -23,6 +23,9 @@
     {"id":"1FTVW3L72SWG04812","url":"https://www.autotrader.com/cars-for-sale/vehicle/789587651","source":"AutoTrader","year":2025,"trim":"Flash","mileage":17747,"price":52780,"location":"Little Rock, AR","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52780}]},
     {"id":"1FT6W3L74RWG04857","url":"https://www.autotrader.com/cars-for-sale/vehicle/791274401","source":"AutoTrader","year":2024,"trim":"Flash","mileage":6341,"price":52895,"location":"Moncks Corner, SC","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52895}]},
     {"id":"1FT6W3L75SWG00919","url":"https://www.autotrader.com/cars-for-sale/vehicle/788623952","source":"AutoTrader","year":2025,"trim":"Flash","mileage":6627,"price":53595,"location":"Wall, NJ","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":53595}]},
-    {"id":"1FTVW3L76RWG03222","url":"https://www.autotrader.com/cars-for-sale/vehicle/791273164","source":"AutoTrader","year":2024,"trim":"Flash","mileage":12751,"price":53985,"location":"Yarmouth, ME","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":53985}]}
+    {"id":"1FTVW3L76RWG03222","url":"https://www.autotrader.com/cars-for-sale/vehicle/791273164","source":"AutoTrader","year":2024,"trim":"Flash","mileage":12751,"price":53985,"location":"Yarmouth, ME","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":53985}]},
+    {"id":"1FT6W3L75SWG01942","url":"https://www.cars.com/vehicledetail/72d7b8e5-b416-4295-ab8b-5be4957bb0d0/","source":"Cars.com","year":2025,"trim":"Flash","mileage":15130,"price":52412,"location":"Ridgeland, MS","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52412}]},
+    {"id":"1FT6W3L78RWG00259","url":"https://www.cars.com/vehicledetail/80032cb4-19f3-4e0b-8d77-1ae7bc513d86/","source":"Cars.com","year":2024,"trim":"Flash","mileage":15575,"price":51481,"location":"Surprise, AZ","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":51481}]},
+    {"id":"1FT6W3L7XRWG04023","url":"https://www.cars.com/vehicledetail/5707e953-796a-4efb-9dbb-c4cea4a90f05/","source":"Cars.com","year":2024,"trim":"Flash","mileage":18278,"price":51338,"location":"Topeka, KS","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":51338}]}
   ]
 }
