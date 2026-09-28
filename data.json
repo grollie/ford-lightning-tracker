@@ -1,0 +1,19 @@
+{
+  "lastUpdated": null,
+  "criteria": {
+    "alert": {
+      "maxMileage": 20000,
+      "maxPrice": 40000,
+      "requiresProPower": true,
+      "requiresNoAccidents": true
+    },
+    "tracked": {
+      "maxMileage": 20000,
+      "maxPrice": 55000,
+      "requiresProPower": true,
+      "requiresNoAccidents": true
+    }
+  },
+  "sources": ["AutoTrader", "Cars.com", "CarGurus", "TrueCar", "CarMax"],
+  "listings": []
+}
