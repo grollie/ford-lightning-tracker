@@ -199,6 +199,24 @@
   footer a { color: var(--text-secondary); }
 
   .sparkline { display: block; }
+
+  .price-cell { display: flex; flex-direction: column; gap: 2px; }
+  .price-best {
+    font-weight: 700;
+    color: var(--good-text);
+    font-variant-numeric: tabular-nums;
+  }
+  .price-other {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .price-source {
+    font-weight: 400;
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+  }
+  .price-best .price-source { color: var(--good-text); opacity: 0.85; }
 </style>
 </head>
 <body>
@@ -228,9 +246,11 @@
   </section>
 
   <footer>
-    Data is pulled from public listing pages (AutoTrader, Cars.com, CarGurus, TrueCar, CarMax) once a day.
-    Mileage, Pro Power Onboard equipment, and accident-history badges are as reported by each listing site
-    and are not independently verified — always confirm with the dealer and a vehicle history report before buying.
+    Data is pulled from public listing pages (AutoTrader, Cars.com, CarGurus, TrueCar, CarMax, and individual
+    U.S. dealership sites) once a day. When the same VIN turns up on more than one site, every source's price
+    is shown, with the lowest highlighted. Mileage, Pro Power Onboard equipment, and accident-history badges
+    are as reported by each listing site and are not independently verified — always confirm with the dealer
+    and a vehicle history report before buying.
   </footer>
 </div>
 
@@ -284,6 +304,24 @@ function deltaBadge(history) {
   return `<span class="badge ${cls}">${arrow} ${CURRENCY.format(Math.abs(diff))}</span>`;
 }
 
+function priceCellHtml(l) {
+  const prices = (l.prices && l.prices.length ? l.prices : [{ source: l.lowestSource, price: l.lowestPrice }])
+    .slice()
+    .sort((a, b) => a.price - b.price);
+  const rows = prices.map(p => {
+    const isLowest = p.price === l.lowestPrice;
+    const cls = isLowest ? 'price-best' : 'price-other';
+    return `<div class="${cls}">${CURRENCY.format(p.price)} <span class="price-source">${esc(p.source)}</span></div>`;
+  }).join('');
+  return `<div class="price-cell">${rows}</div>`;
+}
+
+function bestUrl(l) {
+  if (!l.prices || !l.prices.length) return l.url || '#';
+  const best = l.prices.find(p => p.price === l.lowestPrice) || l.prices[0];
+  return best.url || '#';
+}
+
 function rowHtml(l, opts) {
   const opts_ = opts || {};
   const accident = l.noAccidents ? 'Clean' : 'Reported';
@@ -295,16 +333,15 @@ function rowHtml(l, opts) {
   return `<tr>
     <td>${l.year || ''} ${l.trim ? esc(l.trim) : ''}</td>
     <td>${NUMBER.format(l.mileage)} mi</td>
-    <td>${CURRENCY.format(l.price)}</td>
+    <td>${priceCellHtml(l)}</td>
     <td>${esc(l.location || '—')}</td>
     <td>${proPower}</td>
     <td>${battery}</td>
     <td>${range}</td>
     <td>${accident}</td>
-    <td>${esc(l.source || '—')}</td>
     ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory)}</td>` : ''}
     <td>${fmtDate(l.firstSeen)}</td>
-    <td><a class="listing-link" href="${esc(l.url)}" target="_blank" rel="noopener">View →</a></td>
+    <td><a class="listing-link" href="${esc(bestUrl(l))}" target="_blank" rel="noopener">View →</a></td>
   </tr>`;
 }
 
@@ -320,8 +357,8 @@ function renderTable(el, listings, opts) {
   const trendCols = opts.showTrend ? '<th>Trend</th><th>Change</th>' : '';
   el.innerHTML = `<div class="table-scroll"><table>
     <thead><tr>
-      <th>Vehicle</th><th>Mileage</th><th>Price</th><th>Location</th>
-      <th>Pro Power</th><th>Battery</th><th>Range</th><th>Accidents</th><th>Source</th>
+      <th>Vehicle</th><th>Mileage</th><th>Price (by source)</th><th>Location</th>
+      <th>Pro Power</th><th>Battery</th><th>Range</th><th>Accidents</th>
       ${trendCols}
       <th>First Seen</th><th>Listing</th>
     </tr></thead>
@@ -370,8 +407,8 @@ async function init() {
   document.getElementById('tracked-heading').textContent = `Price Tracker — ${CURRENCY.format(trackedMax)} and Under`;
   document.getElementById('tracked-desc').textContent = `Every qualifying listing at or below ${CURRENCY.format(trackedMax)}, with day-over-day price movement.`;
 
-  const alertListings = listings.filter(l => l.price <= alertMax && l.status !== 'removed');
-  const trackedListings = listings.filter(l => l.price <= trackedMax && l.status !== 'removed');
+  const alertListings = listings.filter(l => l.lowestPrice <= alertMax && l.status !== 'removed');
+  const trackedListings = listings.filter(l => l.lowestPrice <= trackedMax && l.status !== 'removed');
 
   renderTiles(alertListings, trackedListings, alertMax, trackedMax);
   renderTable(document.getElementById('alert-table-wrap'), alertListings, { showTrend: false });
