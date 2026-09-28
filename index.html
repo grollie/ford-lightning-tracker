@@ -330,8 +330,9 @@ function rowHtml(l, opts) {
     ? '<span class="badge good">✓ Extended (9.6kW)</span>'
     : '<span class="badge flat">Unconfirmed</span>';
   const range = l.epaRangeMiles ? `${NUMBER.format(l.epaRangeMiles)} mi` : '—';
+  const vehicleLabel = `${l.year || ''} ${l.trim ? esc(l.trim) : ''}`.trim();
   return `<tr>
-    <td>${l.year || ''} ${l.trim ? esc(l.trim) : ''}</td>
+    <td><a class="listing-link" href="${esc(bestUrl(l))}" target="_blank" rel="noopener">${vehicleLabel}</a></td>
     <td>${NUMBER.format(l.mileage)} mi</td>
     <td>${priceCellHtml(l)}</td>
     <td>${esc(l.location || '—')}</td>
@@ -341,7 +342,6 @@ function rowHtml(l, opts) {
     <td>${accident}</td>
     ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory)}</td>` : ''}
     <td>${fmtDate(l.firstSeen)}</td>
-    <td><a class="listing-link" href="${esc(bestUrl(l))}" target="_blank" rel="noopener">View →</a></td>
   </tr>`;
 }
 
@@ -360,7 +360,7 @@ function renderTable(el, listings, opts) {
       <th>Vehicle</th><th>Mileage</th><th>Price (by source)</th><th>Location</th>
       <th>Pro Power</th><th>Battery</th><th>Range</th><th>Accidents</th>
       ${trendCols}
-      <th>First Seen</th><th>Listing</th>
+      <th>First Seen</th>
     </tr></thead>
     <tbody>${listings.map(l => rowHtml(l, opts)).join('')}</tbody>
   </table></div>`;
