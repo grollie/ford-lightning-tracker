@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T08:05:16-04:00",
+  "lastUpdated": "2026-09-28T08:35:38-04:00",
   "criteria": {
     "alert": {
       "maxMileage": 20000,
@@ -9,19 +9,16 @@
     },
     "tracked": {
       "maxMileage": 20000,
-      "maxPrice": 55000,
+      "maxPrice": 70000,
       "requiresProPower": true,
       "requiresNoAccidents": true
     }
   },
   "sources": ["AutoTrader", "Cars.com", "CarGurus", "TrueCar", "CarMax"],
   "listings": [
-    {"id":"1FT6W1EV2PWG55805","url":"https://www.autotrader.com/cars-for-sale/vehicle/789986361","source":"AutoTrader","year":2023,"trim":"XLT","mileage":19482,"price":44900,"location":"Mechanicville, NY","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":44900}]},
     {"id":"1FTVW3L79RWG20452","url":"https://www.autotrader.com/cars-for-sale/vehicle/787402583","source":"AutoTrader","year":2024,"trim":"Flash","mileage":18603,"price":46433,"location":"Poway, CA","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":46433}]},
     {"id":"1FT6W3L77RWG09521","url":"https://www.autotrader.com/cars-for-sale/vehicle/785688085","source":"AutoTrader","year":2024,"trim":"Flash","mileage":17122,"price":48962,"location":"El Paso, IL","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":48962}]},
-    {"id":"1FT6W1EV9PWG35499","url":"https://www.autotrader.com/cars-for-sale/vehicle/790089867","source":"AutoTrader","year":2023,"trim":"XLT","mileage":5885,"price":49485,"location":"Ambler, PA","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":49485}]},
     {"id":"1FT6W3L72RWG14237","url":"https://www.autotrader.com/cars-for-sale/vehicle/782024114","source":"AutoTrader","year":2024,"trim":"Flash","mileage":15682,"price":49899,"location":"Gower, MO","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":49899}]},
-    {"id":"1FTVW1EV4PWG42310","url":"https://www.autotrader.com/cars-for-sale/vehicle/791636065","source":"AutoTrader","year":2023,"trim":"XLT","mileage":19128,"price":50691,"location":"Loveland, CO","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":50691}]},
     {"id":"1FT6W3L7XRWG05012","url":"https://www.autotrader.com/cars-for-sale/vehicle/791962342","source":"AutoTrader","year":2024,"trim":"Flash","mileage":16019,"price":52195,"location":"Pell City, AL","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52195}]},
     {"id":"1FTVW3L72SWG04812","url":"https://www.autotrader.com/cars-for-sale/vehicle/789587651","source":"AutoTrader","year":2025,"trim":"Flash","mileage":17747,"price":52780,"location":"Little Rock, AR","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52780}]},
     {"id":"1FT6W3L74RWG04857","url":"https://www.autotrader.com/cars-for-sale/vehicle/791274401","source":"AutoTrader","year":2024,"trim":"Flash","mileage":6341,"price":52895,"location":"Moncks Corner, SC","proPower":true,"extendedRangeBattery":true,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":52895}]},
