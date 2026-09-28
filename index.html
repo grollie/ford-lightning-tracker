@@ -213,16 +213,16 @@
 
   <section class="panel">
     <div class="panel-head">
-      <h2>New Matches — Under $40,000</h2>
-      <p>Meets all criteria and priced under the $40k alert threshold.</p>
+      <h2 id="alert-heading">New Matches</h2>
+      <p id="alert-desc">Meets all criteria and priced under the alert threshold.</p>
     </div>
     <div id="alert-table-wrap"></div>
   </section>
 
   <section class="panel">
     <div class="panel-head">
-      <h2>Price Tracker — $55,000 and Under</h2>
-      <p>Every qualifying listing at or below $55,000, with day-over-day price movement.</p>
+      <h2 id="tracked-heading">Price Tracker</h2>
+      <p id="tracked-desc">Every qualifying listing within the tracked price range, with day-over-day price movement.</p>
     </div>
     <div id="tracked-table-wrap"></div>
   </section>
@@ -327,7 +327,7 @@ function renderTable(el, listings, opts) {
   </table></div>`;
 }
 
-function renderTiles(alertListings, trackedListings) {
+function renderTiles(alertListings, trackedListings, alertMax, trackedMax) {
   const drops = trackedListings.filter(l => {
     const h = l.priceHistory;
     return h && h.length >= 2 && h[h.length - 1].price < h[h.length - 2].price;
@@ -337,8 +337,8 @@ function renderTiles(alertListings, trackedListings) {
     return h && h.length >= 2 && h[h.length - 1].price > h[h.length - 2].price;
   }).length;
   const tiles = [
-    { label: 'Matches under $40k', value: alertListings.length },
-    { label: 'Tracked (≤ $55k)', value: trackedListings.length },
+    { label: `Matches under ${CURRENCY.format(alertMax)}`, value: alertListings.length },
+    { label: `Tracked (≤ ${CURRENCY.format(trackedMax)})`, value: trackedListings.length },
     { label: 'Price drops today', value: drops },
     { label: 'Price increases today', value: increases },
   ];
@@ -363,10 +363,15 @@ async function init() {
   const alertMax = (data.criteria && data.criteria.alert && data.criteria.alert.maxPrice) || 40000;
   const trackedMax = (data.criteria && data.criteria.tracked && data.criteria.tracked.maxPrice) || 55000;
 
+  document.getElementById('alert-heading').textContent = `New Matches — Under ${CURRENCY.format(alertMax)}`;
+  document.getElementById('alert-desc').textContent = `Meets all criteria and priced under the ${CURRENCY.format(alertMax)} alert threshold.`;
+  document.getElementById('tracked-heading').textContent = `Price Tracker — ${CURRENCY.format(trackedMax)} and Under`;
+  document.getElementById('tracked-desc').textContent = `Every qualifying listing at or below ${CURRENCY.format(trackedMax)}, with day-over-day price movement.`;
+
   const alertListings = listings.filter(l => l.price <= alertMax && l.status !== 'removed');
   const trackedListings = listings.filter(l => l.price <= trackedMax && l.status !== 'removed');
 
-  renderTiles(alertListings, trackedListings);
+  renderTiles(alertListings, trackedListings, alertMax, trackedMax);
   renderTable(document.getElementById('alert-table-wrap'), alertListings, { showTrend: false });
   renderTable(document.getElementById('tracked-table-wrap'), trackedListings, { showTrend: true });
 }
