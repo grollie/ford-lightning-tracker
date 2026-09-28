@@ -223,7 +223,7 @@
 <div class="wrap">
   <header class="page">
     <h1>Ford F-150 Lightning Watch</h1>
-    <p class="subtitle">Under 20,000 miles &middot; Pro Power Onboard &middot; no reported accidents</p>
+    <p class="subtitle">Under 20,000 miles &middot; 9.6 kW Pro Power Onboard (Extended Range battery) &middot; clean title, no reported accidents</p>
     <p class="updated" id="updated">Loading…</p>
   </header>
 
@@ -258,10 +258,21 @@
 const CURRENCY = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
 const NUMBER = new Intl.NumberFormat('en-US');
 
+function parseDate(iso) {
+  // Date-only strings ("2026-09-28") must be parsed as local dates, not UTC midnight,
+  // or they display as the previous day in US time zones.
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  return m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(iso);
+}
+
+function localDateKey(d) {
+  const p = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
 function fmtDate(iso) {
   if (!iso) return '—';
-  const d = new Date(iso);
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  return parseDate(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 function fmtDateTime(iso) {
@@ -291,9 +302,16 @@ function sparkline(history) {
   </svg>`;
 }
 
-function deltaBadge(history) {
+function isToday(iso) {
+  if (!iso) return false;
+  return localDateKey(parseDate(iso)) === localDateKey(new Date());
+}
+
+function deltaBadge(history, firstSeen) {
   if (!history || history.length < 2) {
-    return '<span class="badge new">NEW</span>';
+    return isToday(firstSeen)
+      ? '<span class="badge new">NEW</span>'
+      : '<span class="badge flat">FLAT</span>';
   }
   const prev = history[history.length - 2].price;
   const curr = history[history.length - 1].price;
@@ -340,7 +358,7 @@ function rowHtml(l, opts) {
     <td>${battery}</td>
     <td>${range}</td>
     <td>${accident}</td>
-    ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory)}</td>` : ''}
+    ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory, l.firstSeen)}</td>` : ''}
     <td>${fmtDate(l.firstSeen)}</td>
   </tr>`;
 }
@@ -367,13 +385,17 @@ function renderTable(el, listings, opts) {
 }
 
 function renderTiles(alertListings, trackedListings, alertMax, trackedMax) {
+  const changedToday = l => {
+    const h = l.priceHistory;
+    return h && h.length >= 2 && isToday(h[h.length - 1].date);
+  };
   const drops = trackedListings.filter(l => {
     const h = l.priceHistory;
-    return h && h.length >= 2 && h[h.length - 1].price < h[h.length - 2].price;
+    return changedToday(l) && h[h.length - 1].price < h[h.length - 2].price;
   }).length;
   const increases = trackedListings.filter(l => {
     const h = l.priceHistory;
-    return h && h.length >= 2 && h[h.length - 1].price > h[h.length - 2].price;
+    return changedToday(l) && h[h.length - 1].price > h[h.length - 2].price;
   }).length;
   const tiles = [
     { label: `Matches under ${CURRENCY.format(alertMax)}`, value: alertListings.length },
@@ -398,17 +420,19 @@ async function init() {
 
   document.getElementById('updated').textContent = 'Last updated: ' + fmtDateTime(data.lastUpdated);
 
-  const listings = data.listings || [];
+  const listings = (data.listings || []).map(l => ({ ...l, lowestPrice: l.lowestPrice ?? l.price }));
   const alertMax = (data.criteria && data.criteria.alert && data.criteria.alert.maxPrice) || 40000;
-  const trackedMax = (data.criteria && data.criteria.tracked && data.criteria.tracked.maxPrice) || 55000;
+  const trackedMax = (data.criteria && data.criteria.tracked && data.criteria.tracked.maxPrice) || 70000;
 
   document.getElementById('alert-heading').textContent = `New Matches — Under ${CURRENCY.format(alertMax)}`;
   document.getElementById('alert-desc').textContent = `Meets all criteria and priced under the ${CURRENCY.format(alertMax)} alert threshold.`;
   document.getElementById('tracked-heading').textContent = `Price Tracker — ${CURRENCY.format(trackedMax)} and Under`;
   document.getElementById('tracked-desc').textContent = `Every qualifying listing at or below ${CURRENCY.format(trackedMax)}, with day-over-day price movement.`;
 
-  const alertListings = listings.filter(l => l.lowestPrice <= alertMax && l.status !== 'removed');
-  const trackedListings = listings.filter(l => l.lowestPrice <= trackedMax && l.status !== 'removed');
+  const byPrice = (a, b) => a.lowestPrice - b.lowestPrice;
+  const active = listings.filter(l => l.lowestPrice != null && l.status !== 'removed');
+  const alertListings = active.filter(l => l.lowestPrice <= alertMax).sort(byPrice);
+  const trackedListings = active.filter(l => l.lowestPrice <= trackedMax).sort(byPrice);
 
   renderTiles(alertListings, trackedListings, alertMax, trackedMax);
   renderTable(document.getElementById('alert-table-wrap'), alertListings, { showTrend: false });
