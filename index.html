@@ -291,6 +291,7 @@ function rowHtml(l, opts) {
   const battery = l.extendedRangeBattery
     ? '<span class="badge good">✓ Extended (9.6kW)</span>'
     : '<span class="badge flat">Unconfirmed</span>';
+  const range = l.epaRangeMiles ? `${NUMBER.format(l.epaRangeMiles)} mi` : '—';
   return `<tr>
     <td>${l.year || ''} ${l.trim ? esc(l.trim) : ''}</td>
     <td>${NUMBER.format(l.mileage)} mi</td>
@@ -298,6 +299,7 @@ function rowHtml(l, opts) {
     <td>${esc(l.location || '—')}</td>
     <td>${proPower}</td>
     <td>${battery}</td>
+    <td>${range}</td>
     <td>${accident}</td>
     <td>${esc(l.source || '—')}</td>
     ${opts_.showTrend ? `<td>${sparkline(l.priceHistory)}</td><td>${deltaBadge(l.priceHistory)}</td>` : ''}
@@ -319,7 +321,7 @@ function renderTable(el, listings, opts) {
   el.innerHTML = `<div class="table-scroll"><table>
     <thead><tr>
       <th>Vehicle</th><th>Mileage</th><th>Price</th><th>Location</th>
-      <th>Pro Power</th><th>Battery</th><th>Accidents</th><th>Source</th>
+      <th>Pro Power</th><th>Battery</th><th>Range</th><th>Accidents</th><th>Source</th>
       ${trendCols}
       <th>First Seen</th><th>Listing</th>
     </tr></thead>
