@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T14:40:00-04:00",
+  "lastUpdated": "2026-09-30T20:45:00-04:00",
   "criteria": {
     "alert": {
       "maxMileage": 20000,
@@ -52,7 +52,6 @@
     {"id":"1FT6W1EV2PWG20388","year":2023,"trim":"Platinum","mileage":6163,"location":"Stamford, CT","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":300,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":62994}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/82c51271-4c5c-465b-a8da-04b9111a2e4a/","price":62994}],"lowestPrice":62994,"lowestSource":"Cars.com"},
     {"id":"1FT6W1EV7PWG18071","year":2023,"trim":"Platinum","mileage":3413,"location":"Minerva, OH","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":300,"noAccidents":true,"firstSeen":"2026-09-28","status":"active","priceHistory":[{"date":"2026-09-28","price":67398}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/4e9c1e5b-3200-4791-9381-ed52757ed584/","price":67398}],"lowestPrice":67398,"lowestSource":"Cars.com"},
     {"id":"1FT6W1EV9PWG16757","year":2023,"trim":"Platinum","mileage":11509,"location":"Scottsdale, AZ","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":300,"noAccidents":true,"firstSeen":"2026-09-29","status":"active","priceHistory":[{"date":"2026-09-29","price":62989}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/f541ac9e-1f87-4f2b-af63-fa7c1a76f91f/","price":62989}],"lowestPrice":62989,"lowestSource":"Cars.com"},
-    {"id":"1FT6W3LU0SWG16712","year":2025,"trim":"Flash","mileage":7731,"location":"Westmont, IL","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-30","status":"active","priceHistory":[{"date":"2026-09-30","price":53715}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/8fa6adea-c8fe-4f7a-b962-67197ebef646/","price":53715}],"lowestPrice":53715,"lowestSource":"Cars.com"},
     {"id":"1FT6W5L79RWG10990","year":2024,"trim":"Lariat","mileage":4763,"location":"McKinney, TX","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-09-30","status":"active","priceHistory":[{"date":"2026-09-30","price":55220}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/b069c04b-e3cc-4cc6-bc70-515a74f644c3/","price":55220}],"lowestPrice":55220,"lowestSource":"Cars.com"}
   ]
 }
