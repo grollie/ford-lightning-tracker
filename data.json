@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T08:40:00-04:00",
+  "lastUpdated": "2026-10-03T14:08:34-04:00",
   "criteria": {
     "alert": {
       "maxMileage": 20000,
@@ -58,6 +58,7 @@
     {"id":"1FTVW3L73RWG03064","year":2024,"trim":"Flash","mileage":17100,"location":"Hasbrouck Heights, NJ","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-10-02","status":"active","priceHistory":[{"date":"2026-10-02","price":52994}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/0e0dd4e8-40cc-4aa4-910d-fb97d5edf2b6/","price":52994}],"lowestPrice":52994,"lowestSource":"Cars.com"},
     {"id":"1FT6W3LU2SWG16596","year":2025,"trim":"Flash","mileage":341,"location":"Columbus, OH","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-10-03","status":"active","priceHistory":[{"date":"2026-10-03","price":57988}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/2da4b397-f0f8-4fdb-a2da-2ae86d1dab8b/","price":57988}],"lowestPrice":57988,"lowestSource":"Cars.com"},
     {"id":"1FTVW3L7XSWG02399","year":2025,"trim":"Flash","mileage":10632,"location":"Midlothian, VA","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":300,"noAccidents":true,"firstSeen":"2026-10-03","status":"active","priceHistory":[{"date":"2026-10-03","price":57894}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/26bfe870-4a62-4f80-a877-015f40384dea/","price":57894}],"lowestPrice":57894,"lowestSource":"Cars.com"},
-    {"id":"1FT6W3L73SWG04645","year":2025,"trim":"Flash","mileage":1389,"location":"Exeter, NH","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-10-03","status":"active","priceHistory":[{"date":"2026-10-03","price":57607}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/2b94957f-e42b-4641-9006-00cc4a68a793/","price":57607}],"lowestPrice":57607,"lowestSource":"Cars.com"}
+    {"id":"1FT6W3L73SWG04645","year":2025,"trim":"Flash","mileage":1389,"location":"Exeter, NH","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-10-03","status":"active","priceHistory":[{"date":"2026-10-03","price":57607}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/2b94957f-e42b-4641-9006-00cc4a68a793/","price":57607}],"lowestPrice":57607,"lowestSource":"Cars.com"},
+    {"id":"1FT6W3L70RWG08355","year":2024,"trim":"Flash","mileage":15376,"location":"Minerva, OH","proPower":true,"extendedRangeBattery":true,"epaRangeMiles":320,"noAccidents":true,"firstSeen":"2026-10-03","status":"active","priceHistory":[{"date":"2026-10-03","price":47398}],"prices":[{"source":"Cars.com","url":"https://www.cars.com/vehicledetail/09acc198-dd19-4c50-acd8-87bbfc997ca1/","price":47398}],"lowestPrice":47398,"lowestSource":"Cars.com"}
   ]
 }
