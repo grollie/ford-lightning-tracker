@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-08T02:14:41-04:00",
+    "lastUpdated":  "2026-10-08T08:25:00-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -432,7 +432,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a6870eef-95ac-4496-933d-307b25a7c753/",
-                                            "price":  53295
+                                            "price":  51495
                                         },
                                         {
                                             "source":  "Jack Madden Ford",
@@ -469,7 +469,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/928d1629-bba7-4f35-a5a0-22b6a1e8f6aa/",
-                                            "price":  55636
+                                            "price":  55144
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1380,7 +1380,7 @@
                          "id":  "1FT6W7L77RWG03340",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  13380,
+                         "mileage":  13468,
                          "location":  "New London, CT",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1464,7 +1464,7 @@
                          "id":  "1FT6W7L75RWG02493",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  8819,
+                         "mileage":  8820,
                          "location":  "Arab, AL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
