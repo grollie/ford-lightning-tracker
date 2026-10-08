@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-08T08:25:00-04:00",
+    "lastUpdated":  "2026-10-08T14:10:24-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -381,13 +381,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/111c5ead-9a2c-4bbc-b2fd-d6ad6d948e99/",
-                                            "price":  52172
-                                        },
-                                        {
                                             "source":  "Crain Ford of Little Rock",
                                             "url":  "https://www.crainfordoflittlerock.net/used-Little+Rock-2025-Ford-F+150+Lightning-Flash-1FTVW3L72SWG04812",
+                                            "price":  52151
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/111c5ead-9a2c-4bbc-b2fd-d6ad6d948e99/",
                                             "price":  52151
                                         }
                                     ],
@@ -426,6 +426,10 @@
                                               {
                                                   "date":  "2026-10-08",
                                                   "price":  50996
+                                              },
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  51495
                                               }
                                           ],
                          "prices":  [
@@ -433,15 +437,10 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a6870eef-95ac-4496-933d-307b25a7c753/",
                                             "price":  51495
-                                        },
-                                        {
-                                            "source":  "Jack Madden Ford",
-                                            "url":  "https://www.jackmaddenford.com/used-Norwood-2024-Ford-F+150+Lightning-Flash-1FT6W3L76RWG08554",
-                                            "price":  50996
                                         }
                                     ],
-                         "lowestPrice":  50996,
-                         "lowestSource":  "Jack Madden Ford"
+                         "lowestPrice":  51495,
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W3LU9SWG05837",
@@ -745,7 +744,7 @@
                          "id":  "1FTVW3L76RWG03222",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  12760,
+                         "mileage":  12751,
                          "location":  "Yarmouth, ME",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -921,7 +920,7 @@
                          "id":  "1FTVW1EVXPWG48693",
                          "year":  2023,
                          "trim":  "XLT",
-                         "mileage":  14757,
+                         "mileage":  14765,
                          "location":  "Bettendorf, IA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1280,16 +1279,20 @@
                                               {
                                                   "date":  "2026-10-06",
                                                   "price":  60170
+                                              },
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  59857
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/b4c2f86c-6eff-40f1-8b05-ef1a26552647/",
-                                            "price":  60170
+                                            "price":  59857
                                         }
                                     ],
-                         "lowestPrice":  60170,
+                         "lowestPrice":  59857,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -1486,6 +1489,118 @@
                                         }
                                     ],
                          "lowestPrice":  68780,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3LU7SWG18246",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  7452,
+                         "location":  "Winona, MN",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-08",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  53739
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/30164b5e-a1a7-41a0-a40e-9dfef028ec77/",
+                                            "price":  53739
+                                        }
+                                    ],
+                         "lowestPrice":  53739,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3LU8SWG16019",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  8469,
+                         "location":  "Spring, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-08",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  55999
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/122c5d4a-4450-46ca-a693-81fd2cfeca69/",
+                                            "price":  55999
+                                        }
+                                    ],
+                         "lowestPrice":  55999,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W1EV6PWG11208",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  85,
+                         "location":  "Mechanicville, NY",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-08",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  66900
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/3e05ff46-ec02-4dc8-98b6-7136d73b2ca9/",
+                                            "price":  66900
+                                        }
+                                    ],
+                         "lowestPrice":  66900,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W5L76RWG22627",
+                         "year":  2024,
+                         "trim":  "Lariat",
+                         "mileage":  9610,
+                         "location":  "Rancho Santa Margarita, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-08",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  61742
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/bcd8be64-f791-46fd-aafe-6f85cff194c1/",
+                                            "price":  61742
+                                        }
+                                    ],
+                         "lowestPrice":  61742,
                          "lowestSource":  "Cars.com"
                      }
                  ]
