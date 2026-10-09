@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-09T02:09:34-04:00",
+    "lastUpdated":  "2026-10-09T08:09:36-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -405,7 +405,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -1282,7 +1282,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-05",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-05",
@@ -1310,7 +1310,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-06",
-                         "status":  "removed",
+                         "status":  "active",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-06",
@@ -1415,7 +1415,7 @@
                          "id":  "1FT6W7L75RWG02493",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  8820,
+                         "mileage":  9147,
                          "location":  "Arab, AL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
