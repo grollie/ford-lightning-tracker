@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-09T08:09:36-04:00",
+    "lastUpdated":  "2026-10-09T14:10:03-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -294,7 +294,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -364,7 +364,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -798,38 +798,6 @@
                                         }
                                     ],
                          "lowestPrice":  54996,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
-                         "id":  "1FT6W1EV9PWG20534",
-                         "year":  2023,
-                         "trim":  "Platinum",
-                         "mileage":  16016,
-                         "location":  "Santa Monica, CA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-09-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-09-28",
-                                                  "price":  62172
-                                              },
-                                              {
-                                                  "date":  "2026-10-02",
-                                                  "price":  61172
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/e85224ec-27f1-43eb-b307-92ac76af26fe/",
-                                            "price":  61172
-                                        }
-                                    ],
-                         "lowestPrice":  61172,
                          "lowestSource":  "Cars.com"
                      },
                      {
