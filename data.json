@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-08T14:10:24-04:00",
+    "lastUpdated":  "2026-10-08T20:41:00-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -398,7 +398,7 @@
                          "id":  "1FT6W3L76RWG08554",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  11450,
+                         "mileage":  11587,
                          "location":  "Norwood, MA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -430,16 +430,20 @@
                                               {
                                                   "date":  "2026-10-08",
                                                   "price":  51495
+                                              },
+                                              {
+                                                  "date":  "2026-10-08",
+                                                  "price":  53295
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a6870eef-95ac-4496-933d-307b25a7c753/",
-                                            "price":  51495
+                                            "price":  53295
                                         }
                                     ],
-                         "lowestPrice":  51495,
+                         "lowestPrice":  53295,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -690,7 +694,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -1356,7 +1360,7 @@
                          "year":  2024,
                          "trim":  "Flash",
                          "mileage":  14492,
-                         "location":  "Richmond, VA",
+                         "location":  "Jacksonville, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
@@ -1372,7 +1376,7 @@
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/41e3b516-a9d5-4d3c-b704-124fdcd71ea7/",
+                                            "url":  "https://www.cars.com/vehicledetail/ebacf723-b9cb-4915-aa0a-8c0755fac109/",
                                             "price":  51999
                                         }
                                     ],
@@ -1502,7 +1506,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
@@ -1530,7 +1534,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
@@ -1558,7 +1562,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
@@ -1586,7 +1590,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
