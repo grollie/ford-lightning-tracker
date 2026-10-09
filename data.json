@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-08T20:41:00-04:00",
+    "lastUpdated":  "2026-10-09T02:09:34-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -188,7 +188,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -1232,34 +1232,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W3L77RWG28585",
-                         "year":  2024,
-                         "trim":  "Flash",
-                         "mileage":  13566,
-                         "location":  "Moonachie, NJ",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  false,
-                         "firstSeen":  "2026-10-05",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-05",
-                                                  "price":  49900
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/ab11c125-4418-4d66-b5d6-5b3fea3418ac/",
-                                            "price":  49900
-                                        }
-                                    ],
-                         "lowestPrice":  49900,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
                          "id":  "1FT6W3LU5SWG29391",
                          "year":  2025,
                          "trim":  "Flash",
@@ -1412,34 +1384,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W3LU0SWG16712",
-                         "year":  2025,
-                         "trim":  "Flash",
-                         "mileage":  7731,
-                         "location":  "Westmont, IL",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  false,
-                         "firstSeen":  "2026-10-07",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-07",
-                                                  "price":  53715
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/8fa6adea-c8fe-4f7a-b962-67197ebef646/",
-                                            "price":  53715
-                                        }
-                                    ],
-                         "lowestPrice":  53715,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
                          "id":  "1FT6W1EV5PWG29005",
                          "year":  2023,
                          "trim":  "Platinum",
@@ -1496,34 +1440,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W3LU7SWG18246",
-                         "year":  2025,
-                         "trim":  "Flash",
-                         "mileage":  7452,
-                         "location":  "Winona, MN",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-08",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-08",
-                                                  "price":  53739
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/30164b5e-a1a7-41a0-a40e-9dfef028ec77/",
-                                            "price":  53739
-                                        }
-                                    ],
-                         "lowestPrice":  53739,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
                          "id":  "1FT6W3LU8SWG16019",
                          "year":  2025,
                          "trim":  "Flash",
@@ -1552,34 +1468,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W1EV6PWG11208",
-                         "year":  2023,
-                         "trim":  "Platinum",
-                         "mileage":  85,
-                         "location":  "Mechanicville, NY",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-08",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-08",
-                                                  "price":  66900
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/3e05ff46-ec02-4dc8-98b6-7136d73b2ca9/",
-                                            "price":  66900
-                                        }
-                                    ],
-                         "lowestPrice":  66900,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
                          "id":  "1FT6W5L76RWG22627",
                          "year":  2024,
                          "trim":  "Lariat",
@@ -1590,7 +1478,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "removed",
+                         "status":  "active",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
