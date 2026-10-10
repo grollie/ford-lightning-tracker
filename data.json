@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-10T02:13:34-04:00",
+    "lastUpdated":  "2026-10-10T08:05:05-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -265,7 +265,7 @@
                          "id":  "1FTVW3LU9SWG12797",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  17745,
+                         "mileage":  17769,
                          "location":  "Apache Junction, AZ",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1600,6 +1600,118 @@
                                         }
                                     ],
                          "lowestPrice":  49852,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L76RWG24060",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  7692,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  58187
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/acb69c1b-7c90-4e2a-a45f-872d036c84d6/",
+                                            "price":  58187
+                                        }
+                                    ],
+                         "lowestPrice":  58187,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W7L7XRWG25431",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  6987,
+                         "location":  "Omaha, NE",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  65294
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/d8eb9cc9-bbc9-4d97-a468-fd403a90180d/",
+                                            "price":  65294
+                                        }
+                                    ],
+                         "lowestPrice":  65294,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L77RWG28585",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  13566,
+                         "location":  "Moonachie, NJ",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  49900
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/ab11c125-4418-4d66-b5d6-5b3fea3418ac/",
+                                            "price":  49900
+                                        }
+                                    ],
+                         "lowestPrice":  49900,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W1EV6PWG11208",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  85,
+                         "location":  "Mechanicville, NY",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  66900
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/3e05ff46-ec02-4dc8-98b6-7136d73b2ca9/",
+                                            "price":  66900
+                                        }
+                                    ],
+                         "lowestPrice":  66900,
                          "lowestSource":  "Cars.com"
                      }
                  ]
