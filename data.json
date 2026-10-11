@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-10T14:40:00-04:00",
+    "lastUpdated":  "2026-10-10T20:30:00-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -62,7 +62,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -1656,6 +1656,62 @@
                                         }
                                     ],
                          "lowestPrice":  65294,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L74RWG24669",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  14256,
+                         "location":  "Westmont, IL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  56317
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/5ebd96e3-9c3f-4966-8aad-b3c599159add/",
+                                            "price":  56317
+                                        }
+                                    ],
+                         "lowestPrice":  56317,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W1EV6PWG11208",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  85,
+                         "location":  "Mechanicville, NY",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-10",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-10",
+                                                  "price":  66900
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/3e05ff46-ec02-4dc8-98b6-7136d73b2ca9/",
+                                            "price":  66900
+                                        }
+                                    ],
+                         "lowestPrice":  66900,
                          "lowestSource":  "Cars.com"
                      }
                  ]
