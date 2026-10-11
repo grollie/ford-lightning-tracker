@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-11T02:11:33-04:00",
+    "lastUpdated":  "2026-10-11T08:20:00-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1367,7 +1367,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-07",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-07",
@@ -1639,6 +1639,62 @@
                                         }
                                     ],
                          "lowestPrice":  49900,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L70RWG08355",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  15405,
+                         "location":  "Minerva, OH",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-11",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-11",
+                                                  "price":  46898
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/09acc198-dd19-4c50-acd8-87bbfc997ca1/",
+                                            "price":  46898
+                                        }
+                                    ],
+                         "lowestPrice":  46898,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L7XSWG02620",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  6888,
+                         "location":  "Boaz, AL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-11",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-11",
+                                                  "price":  58966
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/7bc7e95b-b614-4318-b40d-76989c917051/",
+                                            "price":  58966
+                                        }
+                                    ],
+                         "lowestPrice":  58966,
                          "lowestSource":  "Cars.com"
                      }
                  ]
