@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-12T20:09:56-04:00",
+    "lastUpdated":  "2026-10-13T02:09:50-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -233,14 +233,14 @@
                          "id":  "1FT6W3LU1SWG21174",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  15994,
+                         "mileage":  16137,
                          "location":  "Fairfield, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "removed",
+                         "status":  "active",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -963,34 +963,6 @@
                                         }
                                     ],
                          "lowestPrice":  58789,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
-                         "id":  "1FT6W1EV6PWG18708",
-                         "year":  2023,
-                         "trim":  "Platinum",
-                         "mileage":  1211,
-                         "location":  "Hawthorne, CA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-04",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-04",
-                                                  "price":  65160
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/567827bb-08cf-4768-a1ed-02ea05c66773/",
-                                            "price":  65160
-                                        }
-                                    ],
-                         "lowestPrice":  65160,
                          "lowestSource":  "Cars.com"
                      },
                      {
