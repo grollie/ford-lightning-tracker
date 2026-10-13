@@ -1,5 +1,5 @@
-{
-    "lastUpdated":  "2026-10-12T08:40:00-04:00",
+﻿{
+    "lastUpdated":  "2026-10-12T20:09:56-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -663,34 +663,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W5L76RWG20800",
-                         "year":  2024,
-                         "trim":  "Lariat",
-                         "mileage":  18517,
-                         "location":  "Franklin, MA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-09-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-09-28",
-                                                  "price":  54996
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/aac58b09-7cd2-4e47-a1a8-aa0a7f1337e8/",
-                                            "price":  54996
-                                        }
-                                    ],
-                         "lowestPrice":  54996,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
                          "id":  "1FT6W1EV2PWG20388",
                          "year":  2023,
                          "trim":  "Platinum",
@@ -926,43 +898,6 @@
                                         }
                                     ],
                          "lowestPrice":  57894,
-                         "lowestSource":  "Cars.com"
-                     },
-                     {
-                         "id":  "1FT6W3L73SWG04645",
-                         "year":  2025,
-                         "trim":  "Flash",
-                         "mileage":  1402,
-                         "location":  "Exeter, NH",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-03",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-03",
-                                                  "price":  57607
-                                              },
-                                              {
-                                                  "date":  "2026-10-03",
-                                                  "price":  58269
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/2b94957f-e42b-4641-9006-00cc4a68a793/",
-                                            "price":  58269
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/460359519",
-                                            "price":  58396
-                                        }
-                                    ],
-                         "lowestPrice":  58269,
                          "lowestSource":  "Cars.com"
                      },
                      {
