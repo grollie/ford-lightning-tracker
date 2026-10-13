@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-13T02:09:50-04:00",
+    "lastUpdated":  "2026-10-13T08:10:07-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1421,7 +1421,7 @@
                          "id":  "1FT6W3L7XSWG02620",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  6888,
+                         "mileage":  6899,
                          "location":  "Boaz, AL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1443,6 +1443,62 @@
                                         }
                                     ],
                          "lowestPrice":  58966,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W7L72RWG11619",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  19011,
+                         "location":  "Apple Valley, MN",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-13",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-13",
+                                                  "price":  60349
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/593da95e-0f34-409d-b65c-2c18319ed361/",
+                                            "price":  60349
+                                        }
+                                    ],
+                         "lowestPrice":  60349,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W7L70RWG00084",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  19901,
+                         "location":  "Lebanon, TN",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-13",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-13",
+                                                  "price":  68486
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/e71ed30d-1928-4710-b521-4463070d2341/",
+                                            "price":  68486
+                                        }
+                                    ],
+                         "lowestPrice":  68486,
                          "lowestSource":  "Cars.com"
                      }
                  ]
