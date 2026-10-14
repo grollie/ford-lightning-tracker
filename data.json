@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-13T14:30:00-04:00",
+    "lastUpdated":  "2026-10-13T20:30:00-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -948,13 +948,17 @@
                                               {
                                                   "date":  "2026-10-06",
                                                   "price":  58789
+                                              },
+                                              {
+                                                  "date":  "2026-10-13",
+                                                  "price":  56415
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/971cb89a-e64f-4444-86cf-20b2fa803ac0/",
-                                            "price":  58789
+                                            "price":  56415
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -962,7 +966,7 @@
                                             "price":  58789
                                         }
                                     ],
-                         "lowestPrice":  58789,
+                         "lowestPrice":  56415,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -1204,21 +1208,25 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-08",
-                         "status":  "removed",
+                         "status":  "active",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-08",
                                                   "price":  55999
+                                              },
+                                              {
+                                                  "date":  "2026-10-13",
+                                                  "price":  56999
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/122c5d4a-4450-46ca-a693-81fd2cfeca69/",
-                                            "price":  55999
+                                            "price":  56999
                                         }
                                     ],
-                         "lowestPrice":  55999,
+                         "lowestPrice":  56999,
                          "lowestSource":  "Cars.com"
                      },
                      {
