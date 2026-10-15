@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-15T12:23:49-04:00",
+    "lastUpdated":  "2026-10-15T14:17:29-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -522,7 +522,7 @@
                          "id":  "1FTVW3L77RWG03715",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  19147,
+                         "mileage":  19148,
                          "location":  "Yarmouth, ME",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
