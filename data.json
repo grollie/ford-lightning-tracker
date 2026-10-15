@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-15T12:14:40-04:00",
+    "lastUpdated":  "2026-10-15T12:23:49-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -680,13 +680,17 @@
                                               {
                                                   "date":  "2026-10-02",
                                                   "price":  62988
+                                              },
+                                              {
+                                                  "date":  "2026-10-15",
+                                                  "price":  61997
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/f541ac9e-1f87-4f2b-af63-fa7c1a76f91f/",
-                                            "price":  62988
+                                            "price":  61997
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -699,7 +703,7 @@
                                             "price":  62988
                                         }
                                     ],
-                         "lowestPrice":  62988,
+                         "lowestPrice":  61997,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -764,13 +768,17 @@
                                               {
                                                   "date":  "2026-10-09",
                                                   "price":  50994
+                                              },
+                                              {
+                                                  "date":  "2026-10-15",
+                                                  "price":  48994
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/0e0dd4e8-40cc-4aa4-910d-fb97d5edf2b6/",
-                                            "price":  50994
+                                            "price":  48994
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -778,7 +786,7 @@
                                             "price":  50994
                                         }
                                     ],
-                         "lowestPrice":  50994,
+                         "lowestPrice":  48994,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -1530,7 +1538,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-13",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-13",
@@ -1555,7 +1563,8 @@
                                         }
                                     ],
                          "lowestPrice":  60349,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-10-15"
                      },
                      {
                          "id":  "1FT6W7L70RWG00084",
@@ -1797,6 +1806,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461546585",
                                             "price":  54989
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/dbc1277d-3eb8-4014-95e3-be62093db5af/",
+                                            "price":  55000
                                         }
                                     ],
                          "lowestPrice":  54989,
@@ -2202,6 +2216,39 @@
                                     ],
                          "lowestPrice":  59999,
                          "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W1EV2PWG25302",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  19290,
+                         "location":  "Irving, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-15",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-15",
+                                                  "price":  60205
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/9c77af32-486f-4092-8155-071e5843cc27/",
+                                            "price":  60981
+                                        },
+                                        {
+                                            "source":  "Autos of Dallas",
+                                            "url":  "https://www.autosofdallas.com/inventory/used-2023-ford-f-150-lightning-platinum-1ft6w1ev2pwg25302-in-irving-plano-tx",
+                                            "price":  60205
+                                        }
+                                    ],
+                         "lowestPrice":  60205,
+                         "lowestSource":  "Autos of Dallas"
                      }
                  ]
 }
