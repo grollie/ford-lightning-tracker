@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-18T20:27:53-04:00",
+    "lastUpdated":  "2026-10-19T02:16:08-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -176,44 +176,6 @@
                          "lowestSource":  "CarGurus"
                      },
                      {
-                         "id":  "1FT6W3LU5SWG12882",
-                         "year":  2025,
-                         "trim":  "Flash",
-                         "mileage":  14811,
-                         "location":  "Scottsdale, AZ",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-09-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-09-28",
-                                                  "price":  55893
-                                              },
-                                              {
-                                                  "date":  "2026-09-30",
-                                                  "price":  55798
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/1154c35d-6215-46ff-af62-06e86f49cb4a/",
-                                            "price":  55798
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/457385353",
-                                            "price":  55798
-                                        }
-                                    ],
-                         "lowestPrice":  55798,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-10-13"
-                     },
-                     {
                          "id":  "1FT6W3LU9SWG05837",
                          "year":  2025,
                          "trim":  "Flash",
@@ -258,7 +220,7 @@
                                         {
                                             "source":  "Valenti Ford",
                                             "url":  "https://www.valentisubaru.com/certified/Ford/2025-Ford-F-150-Lightning-3a4c25a6ac1829bdebbeb559e848d6d9.htm",
-                                            "price":  54495
+                                            "price":  55144
                                         }
                                     ],
                          "lowestPrice":  54495,
@@ -1716,7 +1678,7 @@
                                         },
                                         {
                                             "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790007977",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791271388",
                                             "price":  59998
                                         }
                                     ],
@@ -2201,13 +2163,17 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  59785
+                                              },
+                                              {
+                                                  "date":  "2026-10-19",
+                                                  "price":  60274
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793890827",
-                                            "price":  59785
+                                            "price":  60274
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2220,7 +2186,7 @@
                                             "price":  60274
                                         }
                                     ],
-                         "lowestPrice":  59785,
+                         "lowestPrice":  60274,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -2243,6 +2209,10 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  58865
+                                              },
+                                              {
+                                                  "date":  "2026-10-19",
+                                                  "price":  58987
                                               }
                                           ],
                          "prices":  [
@@ -2255,15 +2225,10 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/006c9af2-e7be-4d00-8565-201f1186f2d1/",
                                             "price":  58987
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461751897",
-                                            "price":  58865
                                         }
                                     ],
-                         "lowestPrice":  58865,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  58987,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU0SWG14104",
@@ -2397,6 +2362,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/2e682154-6a1d-4e5b-8f19-9c472ad7050d/",
                                             "price":  64903
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/461785261",
+                                            "price":  64904
                                         }
                                     ],
                          "lowestPrice":  64903,
@@ -2598,6 +2568,39 @@
                                         }
                                     ],
                          "lowestPrice":  50000,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3LU6SWG14818",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  1,
+                         "location":  "Renton, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-19",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-19",
+                                                  "price":  64199
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/d9985087-0c64-4385-9779-bf0b07f1736c/",
+                                            "price":  64199
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793003972",
+                                            "price":  64199
+                                        }
+                                    ],
+                         "lowestPrice":  64199,
                          "lowestSource":  "Cars.com"
                      }
                  ]
