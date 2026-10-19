@@ -1,5 +1,5 @@
-﻿{
-    "lastUpdated":  "2026-10-18T14:23:10-04:00",
+{
+    "lastUpdated":  "2026-10-18T20:27:53-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -142,7 +142,7 @@
                          "id":  "1FT6W3LU1SWG21174",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  16137,
+                         "mileage":  16196,
                          "location":  "Fairfield, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1354,7 +1354,7 @@
                          "id":  "1FT6W7L70RWG00084",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  19901,
+                         "mileage":  19928,
                          "location":  "Lebanon, TN",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1525,7 +1525,7 @@
                          "id":  "1FT6W3LU2SWG21989",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  9757,
+                         "mileage":  9775,
                          "location":  "Beavercreek, OH",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1544,11 +1544,6 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461546585",
                                             "price":  54989
-                                        },
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/dbc1277d-3eb8-4014-95e3-be62093db5af/",
-                                            "price":  55000
                                         }
                                     ],
                          "lowestPrice":  54989,
@@ -1721,7 +1716,7 @@
                                         },
                                         {
                                             "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791272834",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790007977",
                                             "price":  59998
                                         }
                                     ],
@@ -1781,18 +1776,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/2c43d990-0aab-4624-a5cb-3531c9bee04a/",
-                                            "price":  60476
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461457330",
                                             "price":  60476
                                         }
                                     ],
                          "lowestPrice":  60476,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W1EVXPWG25497",
@@ -1863,7 +1853,7 @@
                          "id":  "1FT6W1EV9PWG35499",
                          "year":  2023,
                          "trim":  "XLT",
-                         "mileage":  5885,
+                         "mileage":  5902,
                          "location":  "Ambler, PA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2249,6 +2239,10 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  58987
+                                              },
+                                              {
+                                                  "date":  "2026-10-18",
+                                                  "price":  58865
                                               }
                                           ],
                          "prices":  [
@@ -2261,10 +2255,15 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/006c9af2-e7be-4d00-8565-201f1186f2d1/",
                                             "price":  58987
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/461751897",
+                                            "price":  58865
                                         }
                                     ],
-                         "lowestPrice":  58987,
-                         "lowestSource":  "AutoTrader"
+                         "lowestPrice":  58865,
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3LU0SWG14104",
@@ -2529,6 +2528,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793793882",
+                                            "price":  57786
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/461808938",
                                             "price":  57786
                                         }
                                     ],
