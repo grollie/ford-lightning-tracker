@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-19T08:09:08-04:00",
+    "lastUpdated":  "2026-10-19T14:15:45-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -158,6 +158,10 @@
                                               {
                                                   "date":  "2026-10-15",
                                                   "price":  56077
+                                              },
+                                              {
+                                                  "date":  "2026-10-19",
+                                                  "price":  55992
                                               }
                                           ],
                          "prices":  [
@@ -170,10 +174,15 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/458623603",
                                             "price":  56077
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790705730",
+                                            "price":  55992
                                         }
                                     ],
-                         "lowestPrice":  56077,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  55992,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU9SWG05837",
@@ -1494,7 +1503,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-15",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-15",
@@ -1509,7 +1518,8 @@
                                         }
                                     ],
                          "lowestPrice":  54989,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-10-19"
                      },
                      {
                          "id":  "1FT6W3LU0SWG11283",
@@ -1678,12 +1688,12 @@
                                         },
                                         {
                                             "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791282758",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791271388",
                                             "price":  59998
                                         }
                                     ],
                          "lowestPrice":  59998,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV7NWG00134",
@@ -2432,11 +2442,6 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/41e5246d-5f69-432e-a5e9-a1de05649c3b/",
-                                            "price":  64191
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461824157",
                                             "price":  64191
                                         }
                                     ],
