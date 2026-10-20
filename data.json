@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-19T20:16:36-04:00",
+    "lastUpdated":  "2026-10-20T02:17:10-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -142,7 +142,7 @@
                          "id":  "1FT6W3LU1SWG21174",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  16196,
+                         "mileage":  16137,
                          "location":  "Fairfield, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -463,13 +463,17 @@
                                               {
                                                   "date":  "2026-10-11",
                                                   "price":  62790
+                                              },
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  62594
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/82c51271-4c5c-465b-a8da-04b9111a2e4a/",
-                                            "price":  62790
+                                            "price":  62594
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -482,7 +486,7 @@
                                             "price":  62790
                                         }
                                     ],
-                         "lowestPrice":  62790,
+                         "lowestPrice":  62594,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -832,6 +836,10 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  57330
+                                              },
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  56949
                                               }
                                           ],
                          "prices":  [
@@ -848,11 +856,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/792579812",
-                                            "price":  57330
+                                            "price":  56949
                                         }
                                     ],
-                         "lowestPrice":  57330,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  56949,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3L7XRWG25194",
@@ -1038,6 +1046,10 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  61049
+                                              },
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  60071
                                               }
                                           ],
                          "prices":  [
@@ -1054,11 +1066,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/792968940",
-                                            "price":  61049
+                                            "price":  60071
                                         }
                                     ],
-                         "lowestPrice":  61049,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  60071,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L75RWG08567",
@@ -1260,7 +1272,7 @@
                          "id":  "1FT6W3L7XSWG02620",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  6899,
+                         "mileage":  6911,
                          "location":  "Boaz, AL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1620,18 +1632,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/ebc94b5a-6389-42f3-99f7-07983c2a7565/",
-                                            "price":  55900
-                                        },
-                                        {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/792472917",
                                             "price":  55900
                                         }
                                     ],
                          "lowestPrice":  55900,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FTVW3L72RWG04822",
@@ -1694,18 +1701,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/b7b9085b-fcbf-4d71-8ae6-3bfcfffe003a/",
-                                            "price":  59998
-                                        },
-                                        {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791282758",
                                             "price":  59998
                                         }
                                     ],
                          "lowestPrice":  59998,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV7NWG00134",
@@ -1727,18 +1729,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/4725a323-d248-4264-be03-ffe2b76ba484/",
-                                            "price":  58900
-                                        },
-                                        {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790073796",
                                             "price":  58900
                                         }
                                     ],
                          "lowestPrice":  58900,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W5L72SWG14997",
@@ -1772,7 +1769,7 @@
                          "id":  "1FT6W1EVXPWG25497",
                          "year":  2023,
                          "trim":  "Platinum",
-                         "mileage":  14124,
+                         "mileage":  14126,
                          "location":  "Bettendorf, IA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1989,6 +1986,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/453475387",
+                                            "price":  49375
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/785688085",
                                             "price":  49375
                                         }
                                     ],
@@ -2638,6 +2640,11 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/676c29e0-9500-4f2f-b117-f29c665f501c/",
+                                            "price":  58511
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793721372",
                                             "price":  58511
                                         }
                                     ],
