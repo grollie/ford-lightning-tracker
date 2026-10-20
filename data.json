@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-20T02:17:10-04:00",
+    "lastUpdated":  "2026-10-20T08:17:17-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -350,7 +350,7 @@
                                         }
                                     ],
                          "lowestPrice":  66715,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W5L77RWG21261",
@@ -478,16 +478,16 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/459891276",
-                                            "price":  63585
+                                            "price":  63389
                                         },
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791961992",
-                                            "price":  62790
+                                            "price":  62594
                                         }
                                     ],
                          "lowestPrice":  62594,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV9PWG16757",
@@ -541,7 +541,7 @@
                                         }
                                     ],
                          "lowestPrice":  61997,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FTVW1EVXPWG48693",
@@ -628,7 +628,7 @@
                                         }
                                     ],
                          "lowestPrice":  49594,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3LU2SWG16596",
@@ -705,7 +705,7 @@
                                         }
                                     ],
                          "lowestPrice":  57894,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3L77RWG26836",
@@ -743,7 +743,7 @@
                                         }
                                     ],
                          "lowestPrice":  55750,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU5SWG21484",
@@ -851,7 +851,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/460582826",
-                                            "price":  57330
+                                            "price":  56949
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -898,7 +898,7 @@
                                         }
                                     ],
                          "lowestPrice":  51999,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L77RWG03340",
@@ -936,7 +936,7 @@
                                         }
                                     ],
                          "lowestPrice":  62590,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV5PWG29005",
@@ -974,7 +974,7 @@
                                         }
                                     ],
                          "lowestPrice":  66900,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Marchese Ford of Mechanicville"
                      },
                      {
                          "id":  "1FT6W3LU8SWG16019",
@@ -1016,7 +1016,7 @@
                                         }
                                     ],
                          "lowestPrice":  56999,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W5L76RWG22627",
@@ -1061,7 +1061,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/460962009",
-                                            "price":  61049
+                                            "price":  60071
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -1224,7 +1224,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461024836",
-                                            "price":  56648
+                                            "price":  56150
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -1233,7 +1233,7 @@
                                         }
                                     ],
                          "lowestPrice":  55819,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV6PWG11208",
@@ -1385,7 +1385,7 @@
                                         }
                                     ],
                          "lowestPrice":  67987,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1B78RWG06438",
@@ -1481,7 +1481,7 @@
                                         }
                                     ],
                          "lowestPrice":  50363,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3L74RWG19584",
@@ -1610,7 +1610,7 @@
                                         }
                                     ],
                          "lowestPrice":  55695,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FTVW3L75RWG01624",
@@ -1702,7 +1702,7 @@
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791282758",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791271388",
                                             "price":  59998
                                         }
                                     ],
@@ -1748,7 +1748,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-15",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-15",
@@ -1763,7 +1763,8 @@
                                         }
                                     ],
                          "lowestPrice":  60476,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-10-20"
                      },
                      {
                          "id":  "1FT6W1EVXPWG25497",
@@ -1796,7 +1797,7 @@
                                         }
                                     ],
                          "lowestPrice":  62204,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3L77SWG00730",
@@ -1957,7 +1958,7 @@
                                         }
                                     ],
                          "lowestPrice":  52498,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3L77RWG09521",
@@ -1995,7 +1996,7 @@
                                         }
                                     ],
                          "lowestPrice":  49375,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L7XRWG03221",
@@ -2104,7 +2105,7 @@
                                         }
                                     ],
                          "lowestPrice":  68980,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W7L73RWG24914",
@@ -2212,7 +2213,7 @@
                                         }
                                     ],
                          "lowestPrice":  60274,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FTVW3L76SWG02111",
@@ -2253,7 +2254,7 @@
                                         }
                                     ],
                          "lowestPrice":  58987,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W3LU0SWG14104",
@@ -2286,7 +2287,7 @@
                                         }
                                     ],
                          "lowestPrice":  58425,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3LUXSWG27300",
@@ -2319,7 +2320,7 @@
                                         }
                                     ],
                          "lowestPrice":  69318,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W5L71SWG17258",
@@ -2357,7 +2358,7 @@
                                         }
                                     ],
                          "lowestPrice":  60424,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W5L75SWG03699",
@@ -2370,7 +2371,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-18",
@@ -2395,7 +2396,8 @@
                                         }
                                     ],
                          "lowestPrice":  64903,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-10-20"
                      },
                      {
                          "id":  "1FT6W5L78SWG21680",
@@ -2495,7 +2497,7 @@
                                         }
                                     ],
                          "lowestPrice":  61495,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W5L7XRWG23103",
@@ -2528,7 +2530,7 @@
                                         }
                                     ],
                          "lowestPrice":  57786,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W7L71RWG16746",
@@ -2607,22 +2609,26 @@
                                               {
                                                   "date":  "2026-10-19",
                                                   "price":  64199
+                                              },
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  64371
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/d9985087-0c64-4385-9779-bf0b07f1736c/",
-                                            "price":  64199
+                                            "price":  64371
                                         },
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793003972",
-                                            "price":  64199
+                                            "price":  64371
                                         }
                                     ],
-                         "lowestPrice":  64199,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  64371,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU3SWG24660",
@@ -2649,7 +2655,7 @@
                                         }
                                     ],
                          "lowestPrice":  58511,
-                         "lowestSource":  "Cars.com",
+                         "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-19",
@@ -2687,13 +2693,79 @@
                                         }
                                     ],
                          "lowestPrice":  60794,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-19",
                                                   "price":  60794
                                               }
                                           ]
+                     },
+                     {
+                         "id":  "1FT6W1B76RWG06146",
+                         "year":  2024,
+                         "trim":  "Pro",
+                         "mileage":  12666,
+                         "location":  "Tacoma, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-20",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  52199
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793833691",
+                                            "price":  52199
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/027f1e4a-7bf2-4c46-847a-16e3232d6d51/",
+                                            "price":  52199
+                                        }
+                                    ],
+                         "lowestPrice":  52199,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W5L70RWG23353",
+                         "year":  2024,
+                         "trim":  "Lariat",
+                         "mileage":  13079,
+                         "location":  "Brentwood, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-20",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-20",
+                                                  "price":  59900
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794012427",
+                                            "price":  59900
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462043946",
+                                            "price":  59985
+                                        }
+                                    ],
+                         "lowestPrice":  59900,
+                         "lowestSource":  "AutoTrader"
                      }
                  ]
 }
