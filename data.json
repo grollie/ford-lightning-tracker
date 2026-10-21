@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-20T21:32:40-04:00",
+    "lastUpdated":  "2026-10-21T02:14:46-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -23,35 +23,6 @@
                     "Dealer Direct"
                 ],
     "listings":  [
-                     {
-                         "id":  "1FT6W3L7XRWG05012",
-                         "year":  2024,
-                         "trim":  "Flash",
-                         "mileage":  16019,
-                         "location":  "Pell City, AL",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-09-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-09-28",
-                                                  "price":  52195
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791962342",
-                                            "price":  52195
-                                        }
-                                    ],
-                         "lowestPrice":  52195,
-                         "lowestSource":  "AutoTrader",
-                         "removedDate":  "2026-10-15"
-                     },
                      {
                          "id":  "1FT6W3L75SWG01942",
                          "year":  2025,
@@ -280,35 +251,6 @@
                                     ],
                          "lowestPrice":  57785,
                          "lowestSource":  "AutoTrader"
-                     },
-                     {
-                         "id":  "1FT6W7L73RWG07336",
-                         "year":  2024,
-                         "trim":  "Platinum",
-                         "mileage":  9379,
-                         "location":  "White Bear Lake, MN",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-09-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-09-28",
-                                                  "price":  63845
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/454634616",
-                                            "price":  63845
-                                        }
-                                    ],
-                         "lowestPrice":  63845,
-                         "lowestSource":  "CarGurus",
-                         "removedDate":  "2026-10-15"
                      },
                      {
                          "id":  "1FT6W7L78RWG28084",
@@ -613,6 +555,10 @@
                                               {
                                                   "date":  "2026-10-19",
                                                   "price":  49594
+                                              },
+                                              {
+                                                  "date":  "2026-10-21",
+                                                  "price":  48994
                                               }
                                           ],
                          "prices":  [
@@ -624,10 +570,10 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/460270565",
-                                            "price":  49594
+                                            "price":  48994
                                         }
                                     ],
-                         "lowestPrice":  49594,
+                         "lowestPrice":  48994,
                          "lowestSource":  "CarGurus"
                      },
                      {
@@ -1315,45 +1261,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W7L72RWG11619",
-                         "year":  2024,
-                         "trim":  "Platinum",
-                         "mileage":  19011,
-                         "location":  "Apple Valley, MN",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-13",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-13",
-                                                  "price":  60349
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/593da95e-0f34-409d-b65c-2c18319ed361/",
-                                            "price":  60349
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461315227",
-                                            "price":  60349
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793312518",
-                                            "price":  60349
-                                        }
-                                    ],
-                         "lowestPrice":  60349,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-10-15"
-                     },
-                     {
                          "id":  "1FT6W7L70RWG00084",
                          "year":  2024,
                          "trim":  "Platinum",
@@ -1694,7 +1601,7 @@
                          "year":  2025,
                          "trim":  "Flash",
                          "mileage":  13720,
-                         "location":  "Buellton, CA",
+                         "location":  "Hollister, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
@@ -1710,7 +1617,7 @@
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791272834",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791271388",
                                             "price":  59998
                                         }
                                     ],
@@ -1790,6 +1697,10 @@
                                               {
                                                   "date":  "2026-10-15",
                                                   "price":  62204
+                                              },
+                                              {
+                                                  "date":  "2026-10-21",
+                                                  "price":  62024
                                               }
                                           ],
                          "prices":  [
@@ -1802,10 +1713,15 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461479411",
                                             "price":  62204
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794057201",
+                                            "price":  62024
                                         }
                                     ],
-                         "lowestPrice":  62204,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  62024,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3L77SWG00730",
@@ -2211,7 +2127,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793890827",
-                                            "price":  60274
+                                            "price":  59454
                                         },
                                         {
                                             "source":  "CarGurus",
