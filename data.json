@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-28T20:07:27-04:00",
+    "lastUpdated":  "2026-10-29T02:09:23-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1695,13 +1695,17 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  56997
+                                              },
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  55694
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793763113",
-                                            "price":  56997
+                                            "price":  55694
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1709,8 +1713,8 @@
                                             "price":  56997
                                         }
                                     ],
-                         "lowestPrice":  56997,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  55694,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LUXSWG27300",
@@ -2178,7 +2182,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794012427",
-                                            "price":  58356
+                                            "price":  58387
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2519,6 +2523,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794552139",
                                             "price":  63085
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462583154",
+                                            "price":  63085
                                         }
                                     ],
                          "lowestPrice":  63085,
@@ -2753,16 +2762,20 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  62793
+                                              },
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  61793
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/10fa849a-974a-4f2f-80bd-01096dd4de19/",
-                                            "price":  62793
+                                            "price":  61793
                                         }
                                     ],
-                         "lowestPrice":  62793,
+                         "lowestPrice":  61793,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -3186,6 +3199,34 @@
                                     ],
                          "lowestPrice":  55424,
                          "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W7L75RWG28799",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  12275,
+                         "location":  "Wake Forest, NC",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462826126",
+                                            "price":  67230
+                                        }
+                                    ],
+                         "lowestPrice":  67230,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  67230
+                                              }
+                                          ]
                      }
                  ]
 }
