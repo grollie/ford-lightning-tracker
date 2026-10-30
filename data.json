@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-30T08:11:04-04:00",
+    "lastUpdated":  "2026-10-30T14:13:45-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -359,7 +359,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-02",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-02",
@@ -383,7 +383,8 @@
                                         }
                                     ],
                          "lowestPrice":  50924,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-10-30"
                      },
                      {
                          "id":  "1FTVW3L73RWG03064",
@@ -394,9 +395,9 @@
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
-                         "noAccidents":  true,
+                         "noAccidents":  false,
                          "firstSeen":  "2026-10-02",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-02",
@@ -431,7 +432,8 @@
                                         }
                                     ],
                          "lowestPrice":  49594,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-10-30"
                      },
                      {
                          "id":  "1FTVW3L7XSWG02399",
@@ -862,13 +864,17 @@
                                               {
                                                   "date":  "2026-10-19",
                                                   "price":  55819
+                                              },
+                                              {
+                                                  "date":  "2026-10-30",
+                                                  "price":  55822
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/5ebd96e3-9c3f-4966-8aad-b3c599159add/",
-                                            "price":  55819
+                                            "price":  55822
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -881,7 +887,7 @@
                                             "price":  55822
                                         }
                                     ],
-                         "lowestPrice":  55819,
+                         "lowestPrice":  55822,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -1446,7 +1452,7 @@
                          "id":  "1FT6W1EV9PWG09341",
                          "year":  2023,
                          "trim":  "Platinum",
-                         "mileage":  14648,
+                         "mileage":  14654,
                          "location":  "Troutdale, OR",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1530,7 +1536,7 @@
                          "id":  "1FT6W7L73RWG24914",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  10283,
+                         "mileage":  10350,
                          "location":  "Cincinnati, OH",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1647,7 +1653,7 @@
                          "id":  "1FTVW3L76SWG02111",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  17326,
+                         "mileage":  17328,
                          "location":  "Riverside, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2098,7 +2104,7 @@
                          "id":  "1FT6W3LU0SWG31405",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  7317,
+                         "mileage":  7322,
                          "location":  "Fort Collins, CO",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2215,7 +2221,7 @@
                          "id":  "1FT6W3L71SWG00951",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  11625,
+                         "mileage":  11642,
                          "location":  "Titusville, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2314,7 +2320,7 @@
                          "id":  "1FT6W3LU1SWG14595",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  12196,
+                         "mileage":  12197,
                          "location":  "Colorado Springs, CO",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2484,7 +2490,7 @@
                          "id":  "1FT6W1EV4PWG29206",
                          "year":  2023,
                          "trim":  "Platinum",
-                         "mileage":  7514,
+                         "mileage":  7525,
                          "location":  "Jacksonville, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2517,7 +2523,7 @@
                          "id":  "1FT6W1EV5PWG06033",
                          "year":  2023,
                          "trim":  "Platinum",
-                         "mileage":  3470,
+                         "mileage":  3474,
                          "location":  "Jacksonville, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3432,6 +3438,34 @@
                                     ],
                          "lowestPrice":  64981,
                          "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W5L76SWG01315",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  12840,
+                         "location":  "Philadelphia, PA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-30",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-30",
+                                                  "price":  60138
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462967874",
+                                            "price":  60138
+                                        }
+                                    ],
+                         "lowestPrice":  60138,
+                         "lowestSource":  "CarGurus"
                      }
                  ]
 }
