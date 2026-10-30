@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-29T02:09:23-04:00",
+    "lastUpdated":  "2026-10-29T20:45:01-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -80,7 +80,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -113,7 +113,8 @@
                                         }
                                     ],
                          "lowestPrice":  54495,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-10-29"
                      },
                      {
                          "id":  "1FTVW3LU9SWG11231",
@@ -259,13 +260,17 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  61790
+                                              },
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  60994
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/82c51271-4c5c-465b-a8da-04b9111a2e4a/",
-                                            "price":  61790
+                                            "price":  60994
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -278,8 +283,8 @@
                                             "price":  61790
                                         }
                                     ],
-                         "lowestPrice":  61790,
-                         "lowestSource":  "AutoTrader"
+                         "lowestPrice":  60994,
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W1EV9PWG16757",
@@ -362,11 +367,6 @@
                                               }
                                           ],
                          "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/e624cd5b-a612-442c-afda-4b1d25f09a66/",
-                                            "price":  51104
-                                        },
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/459387152",
@@ -1495,18 +1495,22 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  68980
+                                              },
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  68680
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793797474",
-                                            "price":  68980
+                                            "price":  68680
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/38b36f9c-8fbc-4624-9641-986e8aa2856f/",
-                                            "price":  68980
+                                            "price":  68680
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1514,8 +1518,8 @@
                                             "price":  68980
                                         }
                                     ],
-                         "lowestPrice":  68980,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  68680,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L73RWG24914",
@@ -1802,7 +1806,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-18",
@@ -1821,7 +1825,8 @@
                                         }
                                     ],
                          "lowestPrice":  58888,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-10-29"
                      },
                      {
                          "id":  "1FT6W1EV8PWG38359",
@@ -2681,7 +2686,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -2706,7 +2711,8 @@
                                         }
                                     ],
                          "lowestPrice":  61520,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-10-29"
                      },
                      {
                          "id":  "1FT6W5L79SWG21803",
@@ -2730,7 +2736,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/b96b8f3c-9eab-4c89-bdf4-fda627a3e64c/",
-                                            "price":  63347
+                                            "price":  63175
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -2944,7 +2950,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -2964,7 +2970,8 @@
                                         }
                                     ],
                          "lowestPrice":  61900,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-10-29"
                      },
                      {
                          "id":  "1FT6W7L71RWG27763",
@@ -3227,6 +3234,181 @@
                                                   "price":  67230
                                               }
                                           ]
+                     },
+                     {
+                         "id":  "1FT6W7L72RWG28064",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  15886,
+                         "location":  "St Augustine, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  64899
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462900648",
+                                            "price":  64899
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/f87a6f6f-3d9d-44de-a86a-12b7ecec19e0/",
+                                            "price":  65225
+                                        }
+                                    ],
+                         "lowestPrice":  64899,
+                         "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W3LU3SWG12766",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  14951,
+                         "location":  "Mount Carmel, IL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  54290
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462858196",
+                                            "price":  54290
+                                        }
+                                    ],
+                         "lowestPrice":  54290,
+                         "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FTVW5L79SWG02034",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  3911,
+                         "location":  "San Francisco, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  64973
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/b313ea75-82be-419b-a09b-23b409f3bba1/",
+                                            "price":  64973
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794892539",
+                                            "price":  64973
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462905110",
+                                            "price":  64973
+                                        }
+                                    ],
+                         "lowestPrice":  64973,
+                         "lowestSource":  "Cars.com"
+                     },
+                     {
+                         "id":  "1FT6W3L7XRWG03082",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  14423,
+                         "location":  "Riverside, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  55310
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/de2ce5e9-6cca-421e-8fc4-4e5fb230c5e1/",
+                                            "price":  55432
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794866568",
+                                            "price":  55432
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462847209",
+                                            "price":  55310
+                                        }
+                                    ],
+                         "lowestPrice":  55310,
+                         "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W1EV0PWG07168",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  14321,
+                         "location":  "Eugene, OR",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-29",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-29",
+                                                  "price":  64981
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/70de67ff-7d6d-43bd-a5bd-145766e57f85/",
+                                            "price":  64981
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794812771",
+                                            "price":  64981
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462807514",
+                                            "price":  64981
+                                        }
+                                    ],
+                         "lowestPrice":  64981,
+                         "lowestSource":  "Cars.com"
                      }
                  ]
 }
