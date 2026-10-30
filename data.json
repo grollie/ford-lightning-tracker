@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-29T20:45:01-04:00",
+    "lastUpdated":  "2026-10-30T02:13:39-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -280,7 +280,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791961992",
-                                            "price":  61790
+                                            "price":  60994
                                         }
                                     ],
                          "lowestPrice":  60994,
@@ -2165,7 +2165,7 @@
                          "id":  "1FT6W5L70RWG23353",
                          "year":  2024,
                          "trim":  "Lariat",
-                         "mileage":  13079,
+                         "mileage":  13093,
                          "location":  "Brentwood, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -2181,6 +2181,10 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  58269
+                                              },
+                                              {
+                                                  "date":  "2026-10-30",
+                                                  "price":  58300
                                               }
                                           ],
                          "prices":  [
@@ -2192,10 +2196,10 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462043946",
-                                            "price":  58269
+                                            "price":  58300
                                         }
                                     ],
-                         "lowestPrice":  58269,
+                         "lowestPrice":  58300,
                          "lowestSource":  "CarGurus"
                      },
                      {
@@ -3263,6 +3267,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/f87a6f6f-3d9d-44de-a86a-12b7ecec19e0/",
                                             "price":  65225
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794882976",
+                                            "price":  64899
                                         }
                                     ],
                          "lowestPrice":  64899,
@@ -3291,6 +3300,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462858196",
                                             "price":  54290
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794867831",
+                                            "price":  54325
                                         }
                                     ],
                          "lowestPrice":  54290,
@@ -3350,6 +3364,10 @@
                                               {
                                                   "date":  "2026-10-29",
                                                   "price":  55310
+                                              },
+                                              {
+                                                  "date":  "2026-10-30",
+                                                  "price":  55432
                                               }
                                           ],
                          "prices":  [
@@ -3362,15 +3380,10 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794866568",
                                             "price":  55432
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/462847209",
-                                            "price":  55310
                                         }
                                     ],
-                         "lowestPrice":  55310,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  55432,
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W1EV0PWG07168",
