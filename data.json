@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-31T08:12:24-04:00",
+    "lastUpdated":  "2026-10-31T14:11:21-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2416,7 +2416,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/b0160458-94f1-410d-85a3-a225ba0cf036/",
-                                            "price":  57186
+                                            "price":  54711
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -2426,7 +2426,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462365559",
-                                            "price":  57186
+                                            "price":  54711
                                         }
                                     ],
                          "lowestPrice":  54711,
@@ -2577,7 +2577,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462583154",
-                                            "price":  63085
+                                            "price":  61845
                                         }
                                     ],
                          "lowestPrice":  61845,
@@ -3411,6 +3411,10 @@
                                               {
                                                   "date":  "2026-10-30",
                                                   "price":  55432
+                                              },
+                                              {
+                                                  "date":  "2026-10-31",
+                                                  "price":  55310
                                               }
                                           ],
                          "prices":  [
@@ -3423,10 +3427,15 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794866568",
                                             "price":  55432
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462847209",
+                                            "price":  55310
                                         }
                                     ],
-                         "lowestPrice":  55432,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  55310,
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W1EV0PWG07168",
@@ -3502,7 +3511,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/434fbaae-1f54-479d-b6c7-dd083990f369/",
-                                            "price":  60138
+                                            "price":  60070
                                         }
                                     ],
                          "lowestPrice":  60070,
@@ -3545,6 +3554,39 @@
                                                   "price":  58898
                                               }
                                           ]
+                     },
+                     {
+                         "id":  "1FT6W7L71RWG25883",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  18137,
+                         "location":  "Jacksonville, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-31",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-31",
+                                                  "price":  65468
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795032917",
+                                            "price":  65468
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/f0fe447c-abd9-4e44-9a34-78eb51ee8f8e/",
+                                            "price":  65468
+                                        }
+                                    ],
+                         "lowestPrice":  65468,
+                         "lowestSource":  "AutoTrader"
                      }
                  ]
 }
