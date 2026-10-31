@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-31T02:14:07-04:00",
+    "lastUpdated":  "2026-10-31T08:12:24-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1520,7 +1520,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793797474",
-                                            "price":  68680
+                                            "price":  67980
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2567,7 +2567,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/9152f7f8-ecbc-43de-82d0-d825226fd551/",
-                                            "price":  63085
+                                            "price":  61845
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -3169,7 +3169,7 @@
                          "id":  "1FT6W3LUXSWG12084",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  15644,
+                         "mileage":  15646,
                          "location":  "Virginia Beach, VA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3470,7 +3470,7 @@
                          "id":  "1FT6W5L76SWG01315",
                          "year":  2025,
                          "trim":  "Lariat",
-                         "mileage":  12840,
+                         "mileage":  13057,
                          "location":  "Philadelphia, PA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3492,7 +3492,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462967874",
-                                            "price":  60138
+                                            "price":  60070
                                         },
                                         {
                                             "source":  "AutoTrader",
