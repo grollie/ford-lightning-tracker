@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-10-31T14:11:21-04:00",
+    "lastUpdated":  "2026-10-31T20:14:04-04:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2291,6 +2291,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/231cff2f-e604-4773-afd6-5dabc3557675/",
                                             "price":  50536
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462512025",
+                                            "price":  50536
                                         }
                                     ],
                          "lowestPrice":  50536,
@@ -2385,6 +2390,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/fc602d00-fe15-4d2a-9088-56c7ac02c674/",
                                             "price":  55410
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462420294",
+                                            "price":  55412
                                         }
                                     ],
                          "lowestPrice":  55410,
@@ -3479,14 +3489,14 @@
                          "id":  "1FT6W5L76SWG01315",
                          "year":  2025,
                          "trim":  "Lariat",
-                         "mileage":  13057,
+                         "mileage":  21938,
                          "location":  "Philadelphia, PA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-30",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-30",
@@ -3515,7 +3525,8 @@
                                         }
                                     ],
                          "lowestPrice":  60070,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-10-31"
                      },
                      {
                          "id":  "1FT6W5L79SWG11739",
@@ -3586,6 +3597,100 @@
                                         }
                                     ],
                          "lowestPrice":  65468,
+                         "lowestSource":  "AutoTrader"
+                     },
+                     {
+                         "id":  "1FT6W5L76SWG00312",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  10719,
+                         "location":  "Folsom, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-31",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-31",
+                                                  "price":  63095
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463124588",
+                                            "price":  63095
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795131387",
+                                            "price":  63145
+                                        }
+                                    ],
+                         "lowestPrice":  63095,
+                         "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W7L72RWG24760",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  15140,
+                         "location":  "Laurel, MD",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-31",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-31",
+                                                  "price":  62500
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795078311",
+                                            "price":  62500
+                                        }
+                                    ],
+                         "lowestPrice":  62500,
+                         "lowestSource":  "AutoTrader"
+                     },
+                     {
+                         "id":  "1FT6W1EV8PWG53900",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  13271,
+                         "location":  "Austin, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-10-31",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-10-31",
+                                                  "price":  62202
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795124480",
+                                            "price":  62202
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463133425",
+                                            "price":  62202
+                                        }
+                                    ],
+                         "lowestPrice":  62202,
                          "lowestSource":  "AutoTrader"
                      }
                  ]
