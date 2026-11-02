@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-01T14:11:50-05:00",
+    "lastUpdated":  "2026-11-01T20:11:29-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3600,6 +3600,10 @@
                                               {
                                                   "date":  "2026-10-31",
                                                   "price":  65468
+                                              },
+                                              {
+                                                  "date":  "2026-11-01",
+                                                  "price":  64097
                                               }
                                           ],
                          "prices":  [
@@ -3611,11 +3615,11 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/f0fe447c-abd9-4e44-9a34-78eb51ee8f8e/",
-                                            "price":  65468
+                                            "price":  64097
                                         }
                                     ],
-                         "lowestPrice":  65468,
-                         "lowestSource":  "AutoTrader"
+                         "lowestPrice":  64097,
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W5L76SWG00312",
@@ -3794,6 +3798,34 @@
                                     ],
                          "lowestPrice":  54344,
                          "lowestSource":  "CarGurus"
+                     },
+                     {
+                         "id":  "1FT6W3LU3SWG29650",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  11825,
+                         "location":  "Palm Harbor, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-01",
+                         "status":  "active",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-01",
+                                                  "price":  57968
+                                              }
+                                          ],
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795134489",
+                                            "price":  57968
+                                        }
+                                    ],
+                         "lowestPrice":  57968,
+                         "lowestSource":  "AutoTrader"
                      }
                  ]
 }
