@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-03T11:56:57-05:00",
+    "lastUpdated":  "2026-11-03T14:08:23-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3315,6 +3315,67 @@
                                               {
                                                   "date":  "2026-11-03",
                                                   "price":  60165
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L70SWG05344",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  2855,
+                         "location":  "Lynnwood, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-03",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795029942",
+                                            "price":  63171
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463011390",
+                                            "price":  63171
+                                        }
+                                    ],
+                         "lowestPrice":  63171,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  63171
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L72SWG00937",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  5255,
+                         "location":  "Woodland, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-03",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463252858",
+                                            "price":  62999
+                                        }
+                                    ],
+                         "lowestPrice":  62999,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  62999
                                               }
                                           ]
                      }
