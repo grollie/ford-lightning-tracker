@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-03T14:08:23-05:00",
+    "lastUpdated":  "2026-11-03T20:09:06-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1127,6 +1127,10 @@
                                               {
                                                   "date":  "2026-10-31",
                                                   "price":  58987
+                                              },
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  58865
                                               }
                                           ],
                          "prices":  [
@@ -1139,10 +1143,15 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/006c9af2-e7be-4d00-8565-201f1186f2d1/",
                                             "price":  58987
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/461751897",
+                                            "price":  58865
                                         }
                                     ],
-                         "lowestPrice":  58987,
-                         "lowestSource":  "AutoTrader"
+                         "lowestPrice":  58865,
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3LU0SWG14104",
@@ -1655,13 +1664,17 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  50536
+                                              },
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  50097
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/231cff2f-e604-4773-afd6-5dabc3557675/",
-                                            "price":  50536
+                                            "price":  50097
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1669,7 +1682,7 @@
                                             "price":  50536
                                         }
                                     ],
-                         "lowestPrice":  50536,
+                         "lowestPrice":  50097,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -2536,7 +2549,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -2551,7 +2564,8 @@
                                         }
                                     ],
                          "lowestPrice":  53255,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-03"
                      },
                      {
                          "id":  "1FT6W3LU1SWG14810",
@@ -3247,6 +3261,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463210813",
                                             "price":  66399
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/d19a7d1c-19c4-4d69-9664-4146adcc5576/",
+                                            "price":  66199
                                         }
                                     ],
                          "lowestPrice":  66199,
@@ -3279,6 +3298,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463206562",
+                                            "price":  55495
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/f4fdbc12-0dad-4751-b8cd-34ef6ae3470f/",
                                             "price":  55495
                                         }
                                     ],
@@ -3376,6 +3400,67 @@
                                               {
                                                   "date":  "2026-11-03",
                                                   "price":  62999
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L7XRWG08838",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  5653,
+                         "location":  "Manheim, PA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-03",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463327254",
+                                            "price":  68478
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/2211448e-14b3-423d-8b42-3062d09cd8f4/",
+                                            "price":  68478
+                                        }
+                                    ],
+                         "lowestPrice":  68478,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  68478
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU4SWG12758",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  15439,
+                         "location":  "Broken Arrow, OK",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-03",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463304740",
+                                            "price":  55000
+                                        }
+                                    ],
+                         "lowestPrice":  55000,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-03",
+                                                  "price":  55000
                                               }
                                           ]
                      }
