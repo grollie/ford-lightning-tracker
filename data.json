@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-06T08:09:38-05:00",
+    "lastUpdated":  "2026-11-06T14:07:47-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3465,6 +3465,34 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  69343
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU2SWG23452",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  13816,
+                         "location":  "Peoria, AZ",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-06",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463545738",
+                                            "price":  54999
+                                        }
+                                    ],
+                         "lowestPrice":  54999,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-06",
+                                                  "price":  54999
                                               }
                                           ]
                      }
