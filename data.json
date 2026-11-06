@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-06T14:07:47-05:00",
+    "lastUpdated":  "2026-11-06T14:09:22-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -254,7 +254,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-09-29",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-29",
@@ -293,7 +293,8 @@
                                         }
                                     ],
                          "lowestPrice":  59987,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-06"
                      },
                      {
                          "id":  "1FTVW3L7XSWG02399",
