@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-11-06T04:04:26-05:00",
+    "lastUpdated":  "2026-11-06T08:06:43-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -279,16 +279,20 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  60992
+                                              },
+                                              {
+                                                  "date":  "2026-11-06",
+                                                  "price":  59987
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/791149495",
-                                            "price":  60992
+                                            "price":  59987
                                         }
                                     ],
-                         "lowestPrice":  60992,
+                         "lowestPrice":  59987,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -3424,6 +3428,34 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  60349
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV6PWG50719",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  8112,
+                         "location":  "Apex, NC",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-06",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795509669",
+                                            "price":  69343
+                                        }
+                                    ],
+                         "lowestPrice":  69343,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-06",
+                                                  "price":  69343
                                               }
                                           ]
                      }
