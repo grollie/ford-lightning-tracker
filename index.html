@@ -418,7 +418,7 @@ async function init() {
     return;
   }
 
-  document.getElementById('updated').textContent = 'Last updated: ' + fmtDateTime(data.lastUpdated);
+  document.getElementById('updated').textContent = 'Last checked: ' + fmtDateTime(data.lastUpdated);
 
   const listings = (data.listings || []).map(l => ({ ...l, lowestPrice: l.lowestPrice ?? l.price }));
   const alertMax = (data.criteria && data.criteria.alert && data.criteria.alert.maxPrice) || 40000;
