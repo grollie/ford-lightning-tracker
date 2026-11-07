@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-06T14:09:22-05:00",
+    "lastUpdated":  "2026-11-06T20:07:20-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1772,23 +1772,13 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/9152f7f8-ecbc-43de-82d0-d825226fd551/",
-                                            "price":  61845
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794552139",
-                                            "price":  61845
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462583154",
                                             "price":  61845
                                         }
                                     ],
                          "lowestPrice":  61845,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W7L70RWG26586",
