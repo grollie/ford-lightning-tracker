@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-07T02:08:54-05:00",
+    "lastUpdated":  "2026-11-07T08:08:53-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3162,21 +3162,16 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795469320",
-                                            "price":  57152
+                                            "price":  58171
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/cfc018bb-273c-46c7-bf20-47b4734c2e34/",
                                             "price":  57152
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/463491769",
-                                            "price":  57152
                                         }
                                     ],
                          "lowestPrice":  57152,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-06",
@@ -3417,6 +3412,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463604776",
                                             "price":  52980
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795600236",
+                                            "price":  52980
                                         }
                                     ],
                          "lowestPrice":  52980,
@@ -3425,6 +3425,39 @@
                                               {
                                                   "date":  "2026-11-07",
                                                   "price":  52980
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV4PWG51786",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  5918,
+                         "location":  "Janesville, WI",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-07",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795676024",
+                                            "price":  62450
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463710472",
+                                            "price":  62450
+                                        }
+                                    ],
+                         "lowestPrice":  62450,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-07",
+                                                  "price":  62450
                                               }
                                           ]
                      }
