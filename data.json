@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-06T20:07:20-05:00",
+    "lastUpdated":  "2026-11-07T02:08:54-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1081,45 +1081,6 @@
                          "lowestSource":  "AutoTrader"
                      },
                      {
-                         "id":  "1FT6W5L71SWG17258",
-                         "year":  2025,
-                         "trim":  "Lariat",
-                         "mileage":  17626,
-                         "location":  "Newport News, VA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-18",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-18",
-                                                  "price":  60424
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793851850",
-                                            "price":  60424
-                                        },
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/293a5235-1f12-4683-9fb2-50030044296c/",
-                                            "price":  60424
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461870925",
-                                            "price":  60424
-                                        }
-                                    ],
-                         "lowestPrice":  60424,
-                         "lowestSource":  "CarGurus",
-                         "removedDate":  "2026-11-01"
-                     },
-                     {
                          "id":  "1FT6W1EV8PWG38359",
                          "year":  2023,
                          "trim":  "Platinum",
@@ -1197,48 +1158,6 @@
                                     ],
                          "lowestPrice":  60995,
                          "lowestSource":  "Cars.com"
-                     },
-                     {
-                         "id":  "1FT6W5L7XRWG23103",
-                         "year":  2024,
-                         "trim":  "Lariat",
-                         "mileage":  18790,
-                         "location":  "Lees Summit, MO",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-18",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-18",
-                                                  "price":  57786
-                                              },
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  54607
-                                              },
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  55118
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793793882",
-                                            "price":  55118
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461808938",
-                                            "price":  55118
-                                        }
-                                    ],
-                         "lowestPrice":  55118,
-                         "lowestSource":  "CarGurus",
-                         "removedDate":  "2026-11-01"
                      },
                      {
                          "id":  "1FT6W7L71RWG16746",
@@ -1714,7 +1633,7 @@
                          "id":  "1FT6W1EV4PWG29206",
                          "year":  2023,
                          "trim":  "Platinum",
-                         "mileage":  7525,
+                         "mileage":  7519,
                          "location":  "Jacksonville, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1733,16 +1652,6 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/3695179b-33ac-4cc2-8e27-6e9445d9d972/",
                                             "price":  61485
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794592484",
-                                            "price":  61485
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/462605384",
-                                            "price":  61984
                                         }
                                     ],
                          "lowestPrice":  61485,
@@ -1796,6 +1705,10 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  65448
+                                              },
+                                              {
+                                                  "date":  "2026-11-07",
+                                                  "price":  63248
                                               }
                                           ],
                          "prices":  [
@@ -1807,7 +1720,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794321943",
-                                            "price":  65448
+                                            "price":  63248
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1815,8 +1728,8 @@
                                             "price":  65448
                                         }
                                     ],
-                         "lowestPrice":  65448,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  63248,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W1EV2PWG25347",
@@ -3484,6 +3397,34 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  54999
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV8NWG02054",
+                         "year":  2022,
+                         "trim":  "Platinum",
+                         "mileage":  15444,
+                         "location":  "Waukegan, IL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-07",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463604776",
+                                            "price":  52980
+                                        }
+                                    ],
+                         "lowestPrice":  52980,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-07",
+                                                  "price":  52980
                                               }
                                           ]
                      }
