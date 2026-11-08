@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-07T14:09:37-05:00",
+    "lastUpdated":  "2026-11-07T20:09:06-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1022,13 +1022,17 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  55487
+                                              },
+                                              {
+                                                  "date":  "2026-11-07",
+                                                  "price":  55372
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793763113",
-                                            "price":  55487
+                                            "price":  55372
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1036,7 +1040,7 @@
                                             "price":  56997
                                         }
                                     ],
-                         "lowestPrice":  55487,
+                         "lowestPrice":  55372,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -1673,7 +1677,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1692,7 +1696,8 @@
                                         }
                                     ],
                          "lowestPrice":  61845,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-11-07"
                      },
                      {
                          "id":  "1FT6W7L70RWG26586",
@@ -2181,7 +2186,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -2200,7 +2205,8 @@
                                         }
                                     ],
                          "lowestPrice":  55995,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-11-07"
                      },
                      {
                          "id":  "1FT6W3LUXSWG27796",
@@ -2937,7 +2943,7 @@
                          "id":  "1FT6W5L72SWG00937",
                          "year":  2025,
                          "trim":  "Lariat",
-                         "mileage":  5255,
+                         "mileage":  5302,
                          "location":  "Woodland, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
