@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-08T02:08:48-05:00",
+    "lastUpdated":  "2026-11-08T08:09:33-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1607,7 +1607,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1622,7 +1622,8 @@
                                         }
                                     ],
                          "lowestPrice":  61485,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-08"
                      },
                      {
                          "id":  "1FT6W1EV5PWG06033",
@@ -2688,7 +2689,7 @@
                          "id":  "1FTVW3L78RWG02797",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  16508,
+                         "mileage":  16513,
                          "location":  "Pittsfield, MA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3457,6 +3458,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795700343",
+                                            "price":  64088
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463693309",
                                             "price":  64088
                                         }
                                     ],
