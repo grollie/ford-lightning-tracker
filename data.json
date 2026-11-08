@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-07T20:09:06-05:00",
+    "lastUpdated":  "2026-11-08T02:08:48-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -754,48 +754,6 @@
                                     ],
                          "lowestPrice":  49375,
                          "lowestSource":  "AutoTrader"
-                     },
-                     {
-                         "id":  "1FT6W1EV9PWG09341",
-                         "year":  2023,
-                         "trim":  "Platinum",
-                         "mileage":  14654,
-                         "location":  "Troutdale, OR",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-18",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-18",
-                                                  "price":  62490
-                                              },
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  63640
-                                              },
-                                              {
-                                                  "date":  "2026-11-01",
-                                                  "price":  63685
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/ef0af3ea-5bad-4461-8917-807fb50c9296/",
-                                            "price":  63685
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461880119",
-                                            "price":  63685
-                                        }
-                                    ],
-                         "lowestPrice":  63685,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-11-02"
                      },
                      {
                          "id":  "1FT6W7L75RWG27765",
@@ -3434,6 +3392,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795600236",
                                             "price":  52980
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/a81492be-9b05-49a2-b280-5d48e6105544/",
+                                            "price":  52980
                                         }
                                     ],
                          "lowestPrice":  52980,
@@ -3475,6 +3438,67 @@
                                               {
                                                   "date":  "2026-11-07",
                                                   "price":  62450
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L7XRWG11576",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  10445,
+                         "location":  "Miami, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-08",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795700343",
+                                            "price":  64088
+                                        }
+                                    ],
+                         "lowestPrice":  64088,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-08",
+                                                  "price":  64088
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV2PWG29267",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  13125,
+                         "location":  "Walnut Creek, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-08",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795729519",
+                                            "price":  62991
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463759799",
+                                            "price":  62811
+                                        }
+                                    ],
+                         "lowestPrice":  62811,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-08",
+                                                  "price":  62811
                                               }
                                           ]
                      }
