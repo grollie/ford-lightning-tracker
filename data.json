@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-08T08:09:33-05:00",
+    "lastUpdated":  "2026-11-08T14:10:17-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1855,7 +1855,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1878,7 +1878,8 @@
                                         }
                                     ],
                          "lowestPrice":  60593,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-08"
                      },
                      {
                          "id":  "1FTVW5L72RWG05433",
@@ -2282,16 +2283,6 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462900648",
-                                            "price":  64899
-                                        },
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/f87a6f6f-3d9d-44de-a86a-12b7ecec19e0/",
-                                            "price":  65225
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794882976",
                                             "price":  64899
                                         }
                                     ],
