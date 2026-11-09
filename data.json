@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-09T02:08:17-05:00",
+    "lastUpdated":  "2026-11-09T08:08:49-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2669,13 +2669,17 @@
                                               {
                                                   "date":  "2026-11-01",
                                                   "price":  54344
+                                              },
+                                              {
+                                                  "date":  "2026-11-09",
+                                                  "price":  54144
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463073062",
-                                            "price":  54344
+                                            "price":  54144
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -2683,7 +2687,7 @@
                                             "price":  54394
                                         }
                                     ],
-                         "lowestPrice":  54344,
+                         "lowestPrice":  54144,
                          "lowestSource":  "CarGurus"
                      },
                      {
@@ -3499,6 +3503,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/7c027bf5-f2b6-4fb8-a0fb-b57338fb70ba/",
                                             "price":  58688
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463615323",
+                                            "price":  58755
                                         }
                                     ],
                          "lowestPrice":  58688,
@@ -3511,6 +3520,39 @@
                                               {
                                                   "date":  "2026-11-09",
                                                   "price":  58688
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU6SWG21333",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  14103,
+                         "location":  "Chesapeake, VA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-09",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795547217",
+                                            "price":  60676
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463576155",
+                                            "price":  60676
+                                        }
+                                    ],
+                         "lowestPrice":  60676,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-09",
+                                                  "price":  60676
                                               }
                                           ]
                      }
