@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-08T14:10:17-05:00",
+    "lastUpdated":  "2026-11-08T20:09:07-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1347,7 +1347,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462512025",
-                                            "price":  50536
+                                            "price":  50097
                                         }
                                     ],
                          "lowestPrice":  50097,
@@ -2272,7 +2272,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-29",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-29",
@@ -2287,7 +2287,8 @@
                                         }
                                     ],
                          "lowestPrice":  64899,
-                         "lowestSource":  "CarGurus"
+                         "lowestSource":  "CarGurus",
+                         "removedDate":  "2026-11-08"
                      },
                      {
                          "id":  "1FT6W3LU3SWG12766",
@@ -3496,6 +3497,34 @@
                                               {
                                                   "date":  "2026-11-08",
                                                   "price":  62811
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU5SWG08086",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  8804,
+                         "location":  "Reno, NV",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-08",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795602274",
+                                            "price":  58775
+                                        }
+                                    ],
+                         "lowestPrice":  58775,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-08",
+                                                  "price":  58775
                                               }
                                           ]
                      }
