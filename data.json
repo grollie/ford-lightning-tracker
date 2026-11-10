@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-10T08:08:30-05:00",
+    "lastUpdated":  "2026-11-10T14:09:00-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1429,7 +1429,7 @@
                          "id":  "1FT6W3LU1SWG13396",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  9626,
+                         "mileage":  9642,
                          "location":  "Naperville, IL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1453,27 +1453,21 @@
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  55313
+                                              },
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  55314
                                               }
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/fc602d00-fe15-4d2a-9088-56c7ac02c674/",
-                                            "price":  55410
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462420294",
-                                            "price":  55412
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794394450",
-                                            "price":  55313
+                                            "price":  55314
                                         }
                                     ],
-                         "lowestPrice":  55313,
-                         "lowestSource":  "AutoTrader"
+                         "lowestPrice":  55314,
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3LU0SWG22638",
@@ -2552,7 +2546,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-31",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-31",
@@ -2576,7 +2570,8 @@
                                         }
                                     ],
                          "lowestPrice":  63299,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-10"
                      },
                      {
                          "id":  "1FT6W1EV8PWG53900",
