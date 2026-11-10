@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-09T20:07:37-05:00",
+    "lastUpdated":  "2026-11-10T02:07:43-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1231,11 +1231,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793003972",
-                                            "price":  62171
+                                            "price":  62571
                                         }
                                     ],
                          "lowestPrice":  62171,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W3LU0SWG31405",
@@ -1449,6 +1449,10 @@
                                               {
                                                   "date":  "2026-11-03",
                                                   "price":  55410
+                                              },
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  55313
                                               }
                                           ],
                          "prices":  [
@@ -1465,11 +1469,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794394450",
-                                            "price":  55411
+                                            "price":  55313
                                         }
                                     ],
-                         "lowestPrice":  55410,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  55313,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU0SWG22638",
@@ -3037,7 +3041,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795434041",
-                                            "price":  54500
+                                            "price":  54675
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -3045,7 +3049,7 @@
                                             "price":  55250
                                         }
                                     ],
-                         "lowestPrice":  54500,
+                         "lowestPrice":  54675,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
@@ -3055,6 +3059,10 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  54500
+                                              },
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  54675
                                               }
                                           ]
                      },
@@ -3557,6 +3565,34 @@
                                               {
                                                   "date":  "2026-11-09",
                                                   "price":  60676
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LUXSWG07984",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  5546,
+                         "location":  "Wesley Chapel, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-10",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795771925",
+                                            "price":  63863
+                                        }
+                                    ],
+                         "lowestPrice":  63863,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  63863
                                               }
                                           ]
                      }
