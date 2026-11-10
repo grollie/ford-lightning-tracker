@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-10T02:07:43-05:00",
+    "lastUpdated":  "2026-11-10T08:08:30-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2688,7 +2688,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795171820",
-                                            "price":  54394
+                                            "price":  54194
                                         }
                                     ],
                          "lowestPrice":  54144,
@@ -3593,6 +3593,105 @@
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  63863
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3L72RWG16405",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  18970,
+                         "location":  "Rancho Santa Margarita, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-10",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
+                                            "price":  56170
+                                        }
+                                    ],
+                         "lowestPrice":  56170,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  56170
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU9SWG18684",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  8456,
+                         "location":  "Jupiter, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-10",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795804201",
+                                            "price":  60698
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463855016",
+                                            "price":  60698
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/60f9cc4e-ef19-445c-bf83-c4a8a1cbd7e3/",
+                                            "price":  60698
+                                        }
+                                    ],
+                         "lowestPrice":  60698,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  60698
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L75SWG05540",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  17234,
+                         "location":  "Traverse City, MI",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-10",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795674782",
+                                            "price":  53814
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463709016",
+                                            "price":  53814
+                                        }
+                                    ],
+                         "lowestPrice":  53814,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  53814
                                               }
                                           ]
                      }
