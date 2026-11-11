@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-11T02:09:11-05:00",
+    "lastUpdated":  "2026-11-11T12:52:00-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2171,22 +2171,31 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  56793
+                                              },
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  55995
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462733031",
-                                            "price":  56793
+                                            "price":  56295
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/00d5aad1-3626-4f02-a3c3-4c870492eca5/",
                                             "price":  56793
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795922062",
+                                            "price":  55995
                                         }
                                     ],
-                         "lowestPrice":  56793,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  55995,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3L7XRWG26863",
@@ -2236,15 +2245,24 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462826126",
-                                            "price":  67230
+                                            "price":  66706
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795922102",
+                                            "price":  66331
                                         }
                                     ],
-                         "lowestPrice":  67230,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  66331,
+                         "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-29",
                                                   "price":  67230
+                                              },
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  66331
                                               }
                                           ]
                      },
@@ -3231,6 +3249,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795419099",
                                             "price":  56560
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/3804ffdd-7d94-46b0-ad7c-e740e46429db/",
+                                            "price":  56560
                                         }
                                     ],
                          "lowestPrice":  56560,
@@ -3632,6 +3655,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
                                             "price":  56170
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463859470",
+                                            "price":  56170
                                         }
                                     ],
                          "lowestPrice":  56170,
@@ -3692,7 +3720,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-10",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3712,7 +3740,8 @@
                                                   "date":  "2026-11-10",
                                                   "price":  53814
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-11"
                      },
                      {
                          "id":  "1FT6W5L72SWG14756",
@@ -3744,6 +3773,39 @@
                                               {
                                                   "date":  "2026-11-11",
                                                   "price":  66998
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3LU6SWG05967",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  18692,
+                         "location":  "Conshohocken, PA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-11",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790188634",
+                                            "price":  56000
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/928640d3-528b-403d-b536-ce65adcf5a13/",
+                                            "price":  56300
+                                        }
+                                    ],
+                         "lowestPrice":  56000,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  56000
                                               }
                                           ]
                      }
