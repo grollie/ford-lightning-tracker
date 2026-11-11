@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-10T14:09:00-05:00",
+    "lastUpdated":  "2026-11-10T20:08:06-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1370,6 +1370,10 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  61065
+                                              },
+                                              {
+                                                  "date":  "2026-11-10",
+                                                  "price":  61035
                                               }
                                           ],
                          "prices":  [
@@ -1381,10 +1385,10 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794413416",
-                                            "price":  61065
+                                            "price":  61035
                                         }
                                     ],
-                         "lowestPrice":  61065,
+                         "lowestPrice":  61035,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -3026,7 +3030,8 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-06",
-                         "status":  "active",
+                         "status":  "removed",
+                         "removedDate":  "2026-11-10",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
