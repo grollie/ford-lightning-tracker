@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-10T20:08:06-05:00",
+    "lastUpdated":  "2026-11-11T02:09:11-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1100,13 +1100,17 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  60995
+                                              },
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  60495
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793849250",
-                                            "price":  60995
+                                            "price":  60495
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -1119,8 +1123,8 @@
                                             "price":  61530
                                         }
                                     ],
-                         "lowestPrice":  60995,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  60495,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L71RWG16746",
@@ -2108,6 +2112,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794241802",
                                             "price":  58789
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462344785",
+                                            "price":  58999
                                         }
                                     ],
                          "lowestPrice":  58789,
@@ -3449,6 +3458,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463693309",
                                             "price":  64088
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/93ae2362-5f5f-4dd8-bcaa-43514e0a561c/",
+                                            "price":  64088
                                         }
                                     ],
                          "lowestPrice":  64088,
@@ -3613,6 +3627,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
                                             "price":  56170
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
+                                            "price":  56170
                                         }
                                     ],
                          "lowestPrice":  56170,
@@ -3692,6 +3711,39 @@
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  53814
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L72SWG14756",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  15730,
+                         "location":  "Fairfield, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-11",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/463943585",
+                                            "price":  66998
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/962fa11f-a356-4667-b053-99a30eae10c6/",
+                                            "price":  66998
+                                        }
+                                    ],
+                         "lowestPrice":  66998,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  66998
                                               }
                                           ]
                      }
