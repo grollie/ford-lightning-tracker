@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-12T02:10:14-05:00",
+    "lastUpdated":  "2026-11-12T08:09:38-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3306,6 +3306,100 @@
                                                   "price":  57116
                                               }
                                           ]
-                     }
+                     },
+{
+    "id":  "1FTVW3L75RWG23557",
+    "year":  2024,
+    "trim":  "Flash",
+    "mileage":  15407,
+    "location":  "Kent, WA",
+    "proPower":  true,
+    "extendedRangeBattery":  true,
+    "epaRangeMiles":  320,
+    "noAccidents":  true,
+    "firstSeen":  "2026-11-12",
+    "status":  "active",
+    "prices":  [
+                   {
+                       "source":  "AutoTrader",
+                       "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796057120",
+                       "price":  58987
+                   },
+                   {
+                       "source":  "CarGurus",
+                       "url":  "https://www.cargurus.com/details/464063028",
+                       "price":  59187
+                   }
+               ],
+    "lowestPrice":  58987,
+    "lowestSource":  "AutoTrader",
+    "priceHistory":  [
+                         {
+                             "date":  "2026-11-12",
+                             "price":  58987
+                         }
+                     ]
+},
+{
+    "id":  "1FT6W3L79RWG25039",
+    "year":  2024,
+    "trim":  "Flash",
+    "mileage":  15614,
+    "location":  "Omaha, NE",
+    "proPower":  true,
+    "extendedRangeBattery":  true,
+    "epaRangeMiles":  320,
+    "noAccidents":  true,
+    "firstSeen":  "2026-11-12",
+    "status":  "active",
+    "prices":  [
+                   {
+                       "source":  "AutoTrader",
+                       "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796007272",
+                       "price":  53495
+                   },
+                   {
+                       "source":  "Cars.com",
+                       "url":  "https://www.cars.com/vehicledetail/1d2ef3d7-a7c2-4c10-b9ee-f81e127a1d24/",
+                       "price":  53794
+                   }
+               ],
+    "lowestPrice":  53495,
+    "lowestSource":  "AutoTrader",
+    "priceHistory":  [
+                         {
+                             "date":  "2026-11-12",
+                             "price":  53495
+                         }
+                     ]
+},
+{
+    "id":  "1FT6W5L7XSWG17646",
+    "year":  2025,
+    "trim":  "Lariat",
+    "mileage":  18680,
+    "location":  "Davenport, IA",
+    "proPower":  true,
+    "extendedRangeBattery":  true,
+    "epaRangeMiles":  320,
+    "noAccidents":  true,
+    "firstSeen":  "2026-11-12",
+    "status":  "active",
+    "prices":  [
+                   {
+                       "source":  "CarGurus",
+                       "url":  "https://www.cargurus.com/details/464078037",
+                       "price":  60589
+                   }
+               ],
+    "lowestPrice":  60589,
+    "lowestSource":  "CarGurus",
+    "priceHistory":  [
+                         {
+                             "date":  "2026-11-12",
+                             "price":  60589
+                         }
+                     ]
+}
                  ]
 }
