@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-11T20:09:26-05:00",
+    "lastUpdated":  "2026-11-12T02:06:55-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1906,6 +1906,10 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  62690
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  60690
                                               }
                                           ],
                          "prices":  [
@@ -1917,11 +1921,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794433484",
-                                            "price":  62690
+                                            "price":  60690
                                         }
                                     ],
-                         "lowestPrice":  62690,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  60690,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W5L71RWG24530",
@@ -2041,16 +2045,20 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  63994
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  63357
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794162469",
-                                            "price":  63994
+                                            "price":  63357
                                         }
                                     ],
-                         "lowestPrice":  63994,
+                         "lowestPrice":  63357,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -3657,7 +3665,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
-                                            "price":  56170
+                                            "price":  55671
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -3670,12 +3678,16 @@
                                             "price":  56170
                                         }
                                     ],
-                         "lowestPrice":  56170,
+                         "lowestPrice":  55671,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  56170
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  55671
                                               }
                                           ]
                      },
