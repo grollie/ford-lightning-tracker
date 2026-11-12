@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-11T14:09:35-05:00",
+    "lastUpdated":  "2026-11-11T20:09:26-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -32,9 +32,9 @@
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
-                         "noAccidents":  true,
+                         "noAccidents":  false,
                          "firstSeen":  "2026-09-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-09-28",
@@ -67,7 +67,8 @@
                                         }
                                     ],
                          "lowestPrice":  55992,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-11"
                      },
                      {
                          "id":  "1FTVW3LU9SWG11231",
@@ -3813,6 +3814,39 @@
                                               {
                                                   "date":  "2026-11-11",
                                                   "price":  56000
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L72RWG20082",
+                         "year":  2024,
+                         "trim":  "Lariat",
+                         "mileage":  9779,
+                         "location":  "Austin, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-11",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795988020",
+                                            "price":  57116
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464032667",
+                                            "price":  57116
+                                        }
+                                    ],
+                         "lowestPrice":  57116,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-11",
+                                                  "price":  57116
                                               }
                                           ]
                      }
