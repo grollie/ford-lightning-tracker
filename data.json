@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-12T14:08:34-05:00",
+    "lastUpdated":  "2026-11-12T20:10:08-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1876,7 +1876,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-29",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-29",
@@ -1905,7 +1905,8 @@
                                         }
                                     ],
                          "lowestPrice":  64599,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-12"
                      },
                      {
                          "id":  "1FT6W3L7XRWG03082",
@@ -2161,7 +2162,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795147623",
-                                            "price":  54981
+                                            "price":  54781
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2169,7 +2170,7 @@
                                             "price":  59981
                                         }
                                     ],
-                         "lowestPrice":  54981,
+                         "lowestPrice":  54781,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
@@ -2183,6 +2184,10 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  54981
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  54781
                                               }
                                           ]
                      },
@@ -2318,13 +2323,17 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  54495
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  53995
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795201538",
-                                            "price":  54495
+                                            "price":  53995
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2337,7 +2346,7 @@
                                             "price":  54495
                                         }
                                     ],
-                         "lowestPrice":  54495,
+                         "lowestPrice":  53995,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -2888,15 +2897,19 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a81492be-9b05-49a2-b280-5d48e6105544/",
-                                            "price":  52980
+                                            "price":  51980
                                         }
                                     ],
-                         "lowestPrice":  52980,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  51980,
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-07",
                                                   "price":  52980
+                                              },
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  51980
                                               }
                                           ]
                      },
@@ -3449,6 +3462,95 @@
                                               {
                                                   "date":  "2026-11-12",
                                                   "price":  64718
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L72RWG27361",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  19832,
+                         "location":  "Sterling, VA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-12",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796084854",
+                                            "price":  51988
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464133570",
+                                            "price":  51988
+                                        }
+                                    ],
+                         "lowestPrice":  51988,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  51988
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU7SWG28498",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  12,
+                         "location":  "Clifton, NJ",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-12",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/763754607",
+                                            "price":  56824
+                                        }
+                                    ],
+                         "lowestPrice":  56824,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  56824
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV8PWG13624",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  11546,
+                         "location":  "Fort Pierce, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-12",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464037696",
+                                            "price":  60973
+                                        }
+                                    ],
+                         "lowestPrice":  60973,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-12",
+                                                  "price":  60973
                                               }
                                           ]
                      }
