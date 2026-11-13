@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-13T02:10:08-05:00",
+    "lastUpdated":  "2026-11-13T08:09:15-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -522,13 +522,17 @@
                                               {
                                                   "date":  "2026-10-31",
                                                   "price":  67980
+                                              },
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  66980
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793797474",
-                                            "price":  67980
+                                            "price":  66980
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -538,11 +542,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/461824743",
-                                            "price":  68980
+                                            "price":  66980
                                         }
                                     ],
-                         "lowestPrice":  67980,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  66980,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L73RWG24914",
@@ -2734,7 +2738,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795600236",
-                                            "price":  52980
+                                            "price":  51980
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -3422,6 +3426,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796102897",
                                             "price":  56988
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464170094",
+                                            "price":  57410
                                         }
                                     ],
                          "lowestPrice":  56988,
@@ -3455,6 +3464,11 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/c2d95647-4c98-4cc6-8fca-4ddfc9380462/",
                                             "price":  60945
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464011315",
+                                            "price":  61120
                                         }
                                     ],
                          "lowestPrice":  60945,
@@ -3463,6 +3477,44 @@
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  60945
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L76RWG28545",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  8098,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-13",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796129721",
+                                            "price":  59987
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/6ee744c5-0125-4e30-9c12-bb50d1d340c3/",
+                                            "price":  59987
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464165779",
+                                            "price":  60187
+                                        }
+                                    ],
+                         "lowestPrice":  59987,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  59987
                                               }
                                           ]
                      }
