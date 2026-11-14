@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-14T08:08:29-05:00",
+    "lastUpdated":  "2026-11-14T14:07:32-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2898,7 +2898,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
-                                            "price":  55671
+                                            "price":  56205
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2906,8 +2906,8 @@
                                             "price":  56170
                                         }
                                     ],
-                         "lowestPrice":  55671,
-                         "lowestSource":  "Cars.com",
+                         "lowestPrice":  56170,
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
@@ -2916,6 +2916,10 @@
                                               {
                                                   "date":  "2026-11-12",
                                                   "price":  55671
+                                              },
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  56170
                                               }
                                           ]
                      },
@@ -3582,6 +3586,34 @@
                                               {
                                                   "date":  "2026-11-14",
                                                   "price":  68349
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L75RWG33159",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  9143,
+                         "location":  "Carol Stream, IL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-14",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/460427519",
+                                            "price":  69412
+                                        }
+                                    ],
+                         "lowestPrice":  69412,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  69412
                                               }
                                           ]
                      }
