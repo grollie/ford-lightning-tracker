@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-14T02:09:10-05:00",
+    "lastUpdated":  "2026-11-14T08:08:29-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2893,7 +2893,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
-                                            "price":  55671
+                                            "price":  56205
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2907,7 +2907,7 @@
                                         }
                                     ],
                          "lowestPrice":  55671,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
@@ -3516,6 +3516,72 @@
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  64198
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3L7XRWG20105",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  1230,
+                         "location":  "Tacoma, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-14",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796221762",
+                                            "price":  64988
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464233987",
+                                            "price":  64988
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/5d794dc4-b59d-48a0-b246-17891d5ca96d/",
+                                            "price":  64988
+                                        }
+                                    ],
+                         "lowestPrice":  64988,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  64988
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L78SWG22179",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  10111,
+                         "location":  "Newark, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-14",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464287039",
+                                            "price":  68349
+                                        }
+                                    ],
+                         "lowestPrice":  68349,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  68349
                                               }
                                           ]
                      }
