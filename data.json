@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-13T20:11:02-05:00",
+    "lastUpdated":  "2026-11-14T02:09:10-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1233,35 +1233,6 @@
                          "lowestSource":  "Cars.com"
                      },
                      {
-                         "id":  "1FT6W1EV4PWG29206",
-                         "year":  2023,
-                         "trim":  "Platinum",
-                         "mileage":  7519,
-                         "location":  "Jacksonville, FL",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  61485
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/3695179b-33ac-4cc2-8e27-6e9445d9d972/",
-                                            "price":  61485
-                                        }
-                                    ],
-                         "lowestPrice":  61485,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-11-08"
-                     },
-                     {
                          "id":  "1FT6W7L70RWG26586",
                          "year":  2024,
                          "trim":  "Platinum",
@@ -1340,43 +1311,6 @@
                                     ],
                          "lowestPrice":  63175,
                          "lowestSource":  "AutoTrader"
-                     },
-                     {
-                         "id":  "1FT6W5L76SWG16476",
-                         "year":  2025,
-                         "trim":  "Lariat",
-                         "mileage":  18166,
-                         "location":  "Gaithersburg, MD",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-28",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  62793
-                                              },
-                                              {
-                                                  "date":  "2026-10-29",
-                                                  "price":  61793
-                                              },
-                                              {
-                                                  "date":  "2026-11-06",
-                                                  "price":  60593
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/10fa849a-974a-4f2f-80bd-01096dd4de19/",
-                                            "price":  60593
-                                        }
-                                    ],
-                         "lowestPrice":  60593,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-11-08"
                      },
                      {
                          "id":  "1FTVW5L72RWG05433",
@@ -1715,35 +1649,6 @@
                                           ]
                      },
                      {
-                         "id":  "1FT6W7L72RWG28064",
-                         "year":  2024,
-                         "trim":  "Platinum",
-                         "mileage":  15886,
-                         "location":  "St Augustine, FL",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-29",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-29",
-                                                  "price":  64899
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/462900648",
-                                            "price":  64899
-                                        }
-                                    ],
-                         "lowestPrice":  64899,
-                         "lowestSource":  "CarGurus",
-                         "removedDate":  "2026-11-08"
-                     },
-                     {
                          "id":  "1FT6W3LU3SWG12766",
                          "year":  2025,
                          "trim":  "Flash",
@@ -2033,11 +1938,6 @@
                                           ],
                          "prices":  [
                                         {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795124480",
-                                            "price":  62202
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463133425",
                                             "price":  62202
@@ -2049,7 +1949,7 @@
                                         }
                                     ],
                          "lowestPrice":  62202,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W3L72RWG05523",
@@ -3542,6 +3442,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464213236",
                                             "price":  64899
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796162364",
+                                            "price":  64899
                                         }
                                     ],
                          "lowestPrice":  64899,
@@ -3597,6 +3502,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464222359",
+                                            "price":  64198
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796211818",
                                             "price":  64198
                                         }
                                     ],
