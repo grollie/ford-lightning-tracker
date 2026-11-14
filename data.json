@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-13T14:09:39-05:00",
+    "lastUpdated":  "2026-11-13T20:11:02-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1168,6 +1168,10 @@
                                               {
                                                   "date":  "2026-11-01",
                                                   "price":  56225
+                                              },
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  56162
                                               }
                                           ],
                          "prices":  [
@@ -1179,7 +1183,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794215467",
-                                            "price":  56262
+                                            "price":  56162
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1187,8 +1191,8 @@
                                             "price":  56225
                                         }
                                     ],
-                         "lowestPrice":  56225,
-                         "lowestSource":  "CarGurus"
+                         "lowestPrice":  56162,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W7L7XRWG16907",
@@ -1505,16 +1509,20 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  53975
+                                              },
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  53977
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794378883",
-                                            "price":  53975
+                                            "price":  53977
                                         }
                                     ],
-                         "lowestPrice":  53975,
+                         "lowestPrice":  53977,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -3160,7 +3168,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-11",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3180,7 +3188,8 @@
                                                   "date":  "2026-11-11",
                                                   "price":  57116
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-13"
                      },
                      {
                          "id":  "1FTVW3L75RWG23557",
@@ -3193,7 +3202,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-12",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3218,7 +3227,8 @@
                                                   "date":  "2026-11-12",
                                                   "price":  58987
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-13"
                      },
                      {
                          "id":  "1FT6W3L79RWG25039",
@@ -3512,6 +3522,90 @@
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  59987
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L71RWG25432",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  11850,
+                         "location":  "Saint Augustine, FL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-13",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464213236",
+                                            "price":  64899
+                                        }
+                                    ],
+                         "lowestPrice":  64899,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  64899
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W1EV0PWG17232",
+                         "year":  2023,
+                         "trim":  "Platinum",
+                         "mileage":  12825,
+                         "location":  "Elizabeth City, NC",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-13",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464210490",
+                                            "price":  59995
+                                        }
+                                    ],
+                         "lowestPrice":  59995,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  59995
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L75SWG08921",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  3550,
+                         "location":  "Maumee, OH",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-13",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464222359",
+                                            "price":  64198
+                                        }
+                                    ],
+                         "lowestPrice":  64198,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-13",
+                                                  "price":  64198
                                               }
                                           ]
                      }
