@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-14T14:07:32-05:00",
+    "lastUpdated":  "2026-11-14T20:08:40-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -750,13 +750,17 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  63775
+                                              },
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  63542
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793805577",
-                                            "price":  63775
+                                            "price":  63542
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -769,7 +773,7 @@
                                             "price":  63975
                                         }
                                     ],
-                         "lowestPrice":  63775,
+                         "lowestPrice":  63542,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -1818,7 +1822,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-30",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -1837,7 +1841,8 @@
                                                   "date":  "2026-11-13",
                                                   "price":  59797
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-14"
                      },
                      {
                          "id":  "1FT6W7L71RWG25883",
@@ -3178,7 +3183,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-12",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -3193,7 +3198,8 @@
                                                   "date":  "2026-11-12",
                                                   "price":  60589
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-14"
                      },
                      {
                          "id":  "1FT6W1EV6PWG07837",
@@ -3614,6 +3620,34 @@
                                               {
                                                   "date":  "2026-11-14",
                                                   "price":  69412
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L71RWG25438",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  2915,
+                         "location":  "Folsom, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-14",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796272917",
+                                            "price":  57416
+                                        }
+                                    ],
+                         "lowestPrice":  57416,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-14",
+                                                  "price":  57416
                                               }
                                           ]
                      }
