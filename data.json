@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-16T08:09:09-05:00",
+    "lastUpdated":  "2026-11-16T14:09:10-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1500,7 +1500,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1533,7 +1533,8 @@
                                         }
                                     ],
                          "lowestPrice":  55497,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-16"
                      },
                      {
                          "id":  "1FT6W3L7XRWG26863",
@@ -1579,7 +1580,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-29",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -1607,7 +1608,8 @@
                                                   "date":  "2026-11-12",
                                                   "price":  65807
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-16"
                      },
                      {
                          "id":  "1FT6W3LU3SWG12766",
@@ -3430,6 +3432,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464287039",
+                                            "price":  65782
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796243617",
                                             "price":  65782
                                         }
                                     ],
