@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-16T02:08:55-05:00",
+    "lastUpdated":  "2026-11-16T08:09:09-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1847,44 +1847,6 @@
                          "lowestSource":  "AutoTrader"
                      },
                      {
-                         "id":  "1FT6W7L72RWG24760",
-                         "year":  2024,
-                         "trim":  "Platinum",
-                         "mileage":  15140,
-                         "location":  "Laurel, MD",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  300,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-31",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-31",
-                                                  "price":  62500
-                                              },
-                                              {
-                                                  "date":  "2026-11-01",
-                                                  "price":  63299
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795078311",
-                                            "price":  63299
-                                        },
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/7f793780-d01a-43c6-9dc0-b71a8cd9c781/",
-                                            "price":  63299
-                                        }
-                                    ],
-                         "lowestPrice":  63299,
-                         "lowestSource":  "AutoTrader",
-                         "removedDate":  "2026-11-10"
-                     },
-                     {
                          "id":  "1FT6W1EV8PWG53900",
                          "year":  2023,
                          "trim":  "Platinum",
@@ -2303,53 +2265,6 @@
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  68191
-                                              }
-                                          ]
-                     },
-                     {
-                         "id":  "1FTVW3L70SWG02721",
-                         "year":  2025,
-                         "trim":  "Flash",
-                         "mileage":  14079,
-                         "location":  "Morgantown, WV",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-11-06",
-                         "status":  "removed",
-                         "removedDate":  "2026-11-10",
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/463484855",
-                                            "price":  55075
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795434041",
-                                            "price":  54675
-                                        },
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/8b782e71-f8e9-4a8b-abc7-41058524d0dc/",
-                                            "price":  55250
-                                        }
-                                    ],
-                         "lowestPrice":  54675,
-                         "lowestSource":  "AutoTrader",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-11-06",
-                                                  "price":  53075
-                                              },
-                                              {
-                                                  "date":  "2026-11-06",
-                                                  "price":  54500
-                                              },
-                                              {
-                                                  "date":  "2026-11-10",
-                                                  "price":  54675
                                               }
                                           ]
                      },
