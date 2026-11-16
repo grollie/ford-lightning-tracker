@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-15T14:10:23-05:00",
+    "lastUpdated":  "2026-11-15T20:08:37-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1362,16 +1362,20 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  68436
+                                              },
+                                              {
+                                                  "date":  "2026-11-15",
+                                                  "price":  67436
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/6932cc25-4e23-4f1c-830a-b8880e96099c/",
-                                            "price":  68436
+                                            "price":  67436
                                         }
                                     ],
-                         "lowestPrice":  68436,
+                         "lowestPrice":  67436,
                          "lowestSource":  "Cars.com"
                      },
                      {
