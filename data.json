@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-15T20:08:37-05:00",
+    "lastUpdated":  "2026-11-15T20:10:42-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -322,7 +322,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-11",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-11",
@@ -337,7 +337,8 @@
                                         }
                                     ],
                          "lowestPrice":  58966,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-15"
                      },
                      {
                          "id":  "1FT6W7L70RWG00084",
@@ -558,7 +559,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-18",
@@ -591,7 +592,8 @@
                                         }
                                     ],
                          "lowestPrice":  59454,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-15"
                      },
                      {
                          "id":  "1FT6W3LU0SWG14104",
@@ -2167,7 +2169,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-03",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -2187,7 +2189,8 @@
                                                   "date":  "2026-11-03",
                                                   "price":  62999
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-15"
                      },
                      {
                          "id":  "1FT6W7L7XRWG08838",
@@ -2833,10 +2836,10 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463859470",
-                                            "price":  56170
+                                            "price":  56205
                                         }
                                     ],
-                         "lowestPrice":  56170,
+                         "lowestPrice":  56205,
                          "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
@@ -2850,6 +2853,10 @@
                                               {
                                                   "date":  "2026-11-14",
                                                   "price":  56170
+                                              },
+                                              {
+                                                  "date":  "2026-11-15",
+                                                  "price":  56205
                                               }
                                           ]
                      },
