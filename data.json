@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-16T14:09:10-05:00",
+    "lastUpdated":  "2026-11-16T20:07:58-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1218,6 +1218,10 @@
                                               {
                                                   "date":  "2026-11-07",
                                                   "price":  63248
+                                              },
+                                              {
+                                                  "date":  "2026-11-16",
+                                                  "price":  63048
                                               }
                                           ],
                          "prices":  [
@@ -1229,7 +1233,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794321943",
-                                            "price":  63248
+                                            "price":  63048
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1237,7 +1241,7 @@
                                             "price":  63248
                                         }
                                     ],
-                         "lowestPrice":  63248,
+                         "lowestPrice":  63048,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -1698,7 +1702,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-29",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-29",
@@ -1730,7 +1734,8 @@
                                         }
                                     ],
                          "lowestPrice":  55432,
-                         "lowestSource":  "Cars.com"
+                         "lowestSource":  "Cars.com",
+                         "removedDate":  "2026-11-16"
                      },
                      {
                          "id":  "1FT6W1EV0PWG07168",
@@ -3506,6 +3511,34 @@
                                               {
                                                   "date":  "2026-11-14",
                                                   "price":  57416
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L71RWG05514",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  14064,
+                         "location":  "Redlands, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-16",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796233522",
+                                            "price":  55084
+                                        }
+                                    ],
+                         "lowestPrice":  55084,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-16",
+                                                  "price":  55084
                                               }
                                           ]
                      }
