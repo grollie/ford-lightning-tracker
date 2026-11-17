@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-17T08:09:38-05:00",
+    "lastUpdated":  "2026-11-17T14:11:49-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -371,14 +371,14 @@
                          "id":  "1FT6W3L77RWG09521",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  19622,
+                         "mileage":  20853,
                          "location":  "El Paso, IL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-18",
@@ -403,7 +403,8 @@
                                         }
                                     ],
                          "lowestPrice":  49375,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-17"
                      },
                      {
                          "id":  "1FT6W7L75RWG27765",
@@ -1098,11 +1099,6 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a9ab8837-fb24-42fc-8d09-7f2a83b95955/",
-                                            "price":  64809
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794599398",
                                             "price":  64809
                                         },
                                         {
@@ -1875,21 +1871,25 @@
                                               {
                                                   "date":  "2026-11-09",
                                                   "price":  58187
+                                              },
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  57932
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795134489",
-                                            "price":  58187
+                                            "price":  57932
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/c47bdd82-2a72-4e1f-9ca2-df2b5865bbea/",
-                                            "price":  58187
+                                            "price":  57932
                                         }
                                     ],
-                         "lowestPrice":  58187,
+                         "lowestPrice":  57932,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -2380,11 +2380,6 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463604776",
-                                            "price":  52980
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795600236",
                                             "price":  51980
                                         },
                                         {
@@ -2495,27 +2490,21 @@
                          "status":  "active",
                          "prices":  [
                                         {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795729519",
-                                            "price":  62991
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/463759799",
-                                            "price":  62811
-                                        },
-                                        {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/8eaa662b-2232-4f02-bd83-7e8b7d262ab6/",
                                             "price":  62991
                                         }
                                     ],
-                         "lowestPrice":  62811,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  62991,
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-08",
                                                   "price":  62811
+                                              },
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  62991
                                               }
                                           ]
                      },
@@ -2619,20 +2608,24 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795771925",
-                                            "price":  63863
+                                            "price":  61954
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/f093bdaf-70c7-493c-9609-b2b2b7fd3b7d/",
-                                            "price":  63863
+                                            "price":  61954
                                         }
                                     ],
-                         "lowestPrice":  63863,
+                         "lowestPrice":  61954,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  63863
+                                              },
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  61954
                                               }
                                           ]
                      },
@@ -3470,6 +3463,34 @@
                                               {
                                                   "date":  "2026-11-17",
                                                   "price":  54990
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3L76RWG02863",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  3096,
+                         "location":  "Fredericksburg, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-17",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464469230",
+                                            "price":  54995
+                                        }
+                                    ],
+                         "lowestPrice":  54995,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  54995
                                               }
                                           ]
                      }
