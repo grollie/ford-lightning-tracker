@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-17T20:09:32-05:00",
+    "lastUpdated":  "2026-11-18T02:08:12-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -739,44 +739,6 @@
                                     ],
                          "lowestPrice":  60295,
                          "lowestSource":  "AutoTrader"
-                     },
-                     {
-                         "id":  "1FT6W7L71RWG16746",
-                         "year":  2024,
-                         "trim":  "Platinum",
-                         "mileage":  14080,
-                         "location":  "Frankfort, IL",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-18",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-18",
-                                                  "price":  65408
-                                              },
-                                              {
-                                                  "date":  "2026-10-28",
-                                                  "price":  64995
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/461887953",
-                                            "price":  65408
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794158958",
-                                            "price":  64995
-                                        }
-                                    ],
-                         "lowestPrice":  64995,
-                         "lowestSource":  "AutoTrader",
-                         "removedDate":  "2026-11-12"
                      },
                      {
                          "id":  "1FT6W1EV0PWG35259",
@@ -1537,49 +1499,6 @@
                          "lowestSource":  "CarGurus"
                      },
                      {
-                         "id":  "1FTVW5L79SWG02034",
-                         "year":  2025,
-                         "trim":  "Lariat",
-                         "mileage":  3911,
-                         "location":  "San Francisco, CA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-29",
-                         "status":  "removed",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-29",
-                                                  "price":  64973
-                                              },
-                                              {
-                                                  "date":  "2026-11-06",
-                                                  "price":  64599
-                                              }
-                                          ],
-                         "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/b313ea75-82be-419b-a09b-23b409f3bba1/",
-                                            "price":  64599
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794892539",
-                                            "price":  64599
-                                        },
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/462905110",
-                                            "price":  64973
-                                        }
-                                    ],
-                         "lowestPrice":  64599,
-                         "lowestSource":  "Cars.com",
-                         "removedDate":  "2026-11-12"
-                     },
-                     {
                          "id":  "1FT6W3L7XRWG03082",
                          "year":  2024,
                          "trim":  "Flash",
@@ -2078,11 +1997,6 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/2211448e-14b3-423d-8b42-3062d09cd8f4/",
-                                            "price":  68478
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795322393",
                                             "price":  68478
                                         }
                                     ],
@@ -3504,6 +3418,34 @@
                                               {
                                                   "date":  "2026-11-17",
                                                   "price":  54995
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3L74RWG05177",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  10061,
+                         "location":  "Red Bank, NJ",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-18",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464376559",
+                                            "price":  54744
+                                        }
+                                    ],
+                         "lowestPrice":  54744,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-18",
+                                                  "price":  54744
                                               }
                                           ]
                      }
