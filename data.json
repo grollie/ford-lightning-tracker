@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-17T14:11:49-05:00",
+    "lastUpdated":  "2026-11-17T20:09:32-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -972,6 +972,10 @@
                                               {
                                                   "date":  "2026-11-10",
                                                   "price":  61035
+                                              },
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  60005
                                               }
                                           ],
                          "prices":  [
@@ -983,10 +987,10 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794413416",
-                                            "price":  61035
+                                            "price":  60005
                                         }
                                     ],
-                         "lowestPrice":  61035,
+                         "lowestPrice":  60005,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -1330,6 +1334,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794378883",
+                                            "price":  53977
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462374951",
                                             "price":  53977
                                         }
                                     ],
@@ -2650,15 +2659,15 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
-                                            "price":  56205
+                                            "price":  56306
                                         },
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463859470",
-                                            "price":  56205
+                                            "price":  56306
                                         }
                                     ],
-                         "lowestPrice":  56205,
+                         "lowestPrice":  56306,
                          "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
@@ -2676,6 +2685,10 @@
                                               {
                                                   "date":  "2026-11-15",
                                                   "price":  56205
+                                              },
+                                              {
+                                                  "date":  "2026-11-17",
+                                                  "price":  56306
                                               }
                                           ]
                      },
@@ -3118,7 +3131,7 @@
                          "id":  "1FT6W3L76RWG28545",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  8098,
+                         "mileage":  8105,
                          "location":  "Kent, WA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
