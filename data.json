@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-18T08:09:41-05:00",
+    "lastUpdated":  "2026-11-18T14:09:30-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1063,22 +1063,21 @@
                                               {
                                                   "date":  "2026-10-28",
                                                   "price":  64809
+                                              },
+                                              {
+                                                  "date":  "2026-11-18",
+                                                  "price":  65719
                                               }
                                           ],
                          "prices":  [
-                                        {
-                                            "source":  "Cars.com",
-                                            "url":  "https://www.cars.com/vehicledetail/a9ab8837-fb24-42fc-8d09-7f2a83b95955/",
-                                            "price":  64809
-                                        },
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462617702",
                                             "price":  65719
                                         }
                                     ],
-                         "lowestPrice":  64809,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  65719,
+                         "lowestSource":  "CarGurus"
                      },
                      {
                          "id":  "1FT6W7L70RWG26586",
@@ -2387,11 +2386,6 @@
                          "status":  "active",
                          "prices":  [
                                         {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795700343",
-                                            "price":  64088
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463693309",
                                             "price":  64088
@@ -2403,7 +2397,7 @@
                                         }
                                     ],
                          "lowestPrice":  64088,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-08",
@@ -3468,6 +3462,62 @@
                                               {
                                                   "date":  "2026-11-18",
                                                   "price":  54744
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW5L79SWG16242",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  11836,
+                         "location":  "Roanoke, VA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-18",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464588953",
+                                            "price":  62776
+                                        }
+                                    ],
+                         "lowestPrice":  62776,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-18",
+                                                  "price":  62776
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L74SWG28349",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  6405,
+                         "location":  "Kansas City, MO",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-18",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464568657",
+                                            "price":  61895
+                                        }
+                                    ],
+                         "lowestPrice":  61895,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-18",
+                                                  "price":  61895
                                               }
                                           ]
                      }
