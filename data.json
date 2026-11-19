@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-19T08:08:56-05:00",
+    "lastUpdated":  "2026-11-19T14:09:18-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2553,7 +2553,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
-                                            "price":  56306
+                                            "price":  56171
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2649,15 +2649,19 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/962fa11f-a356-4667-b053-99a30eae10c6/",
-                                            "price":  66998
+                                            "price":  65998
                                         }
                                     ],
-                         "lowestPrice":  66998,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  65998,
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-11",
                                                   "price":  66998
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  65998
                                               }
                                           ]
                      },
@@ -2906,7 +2910,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464170094",
-                                            "price":  57410
+                                            "price":  56911
                                         }
                                     ],
                          "lowestPrice":  56489,
@@ -3496,6 +3500,34 @@
                                               {
                                                   "date":  "2026-11-19",
                                                   "price":  49406
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L77RWG05816",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  18281,
+                         "location":  "Apex, NC",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-19",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796632911",
+                                            "price":  69878
+                                        }
+                                    ],
+                         "lowestPrice":  69878,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  69878
                                               }
                                           ]
                      }
