@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-19T02:07:49-05:00",
+    "lastUpdated":  "2026-11-19T08:08:56-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -62,7 +62,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/458228851",
-                                            "price":  58383
+                                            "price":  57593
                                         },
                                         {
                                             "source":  "AutoTrader",
@@ -756,6 +756,10 @@
                                               {
                                                   "date":  "2026-10-18",
                                                   "price":  50000
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  48170
                                               }
                                           ],
                          "prices":  [
@@ -767,11 +771,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793705740",
-                                            "price":  50175
+                                            "price":  48170
                                         }
                                     ],
-                         "lowestPrice":  50000,
-                         "lowestSource":  "Cars.com"
+                         "lowestPrice":  48170,
+                         "lowestSource":  "AutoTrader"
                      },
                      {
                          "id":  "1FT6W3LU6SWG14818",
@@ -2544,7 +2548,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
-                                            "price":  56306
+                                            "price":  56171
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2557,8 +2561,8 @@
                                             "price":  56306
                                         }
                                     ],
-                         "lowestPrice":  56306,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  56171,
+                         "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
@@ -2579,6 +2583,10 @@
                                               {
                                                   "date":  "2026-11-17",
                                                   "price":  56306
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  56171
                                               }
                                           ]
                      },
@@ -2968,7 +2976,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796129721",
-                                            "price":  59987
+                                            "price":  63987
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2981,12 +2989,16 @@
                                             "price":  60187
                                         }
                                     ],
-                         "lowestPrice":  59987,
-                         "lowestSource":  "AutoTrader",
+                         "lowestPrice":  60187,
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  59987
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  60187
                                               }
                                           ]
                      },
@@ -3386,6 +3398,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464588953",
+                                            "price":  62776
+                                        },
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796522939",
                                             "price":  62776
                                         }
                                     ],
