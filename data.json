@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-18T14:09:30-05:00",
+    "lastUpdated":  "2026-11-18T20:09:28-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3518,6 +3518,34 @@
                                               {
                                                   "date":  "2026-11-18",
                                                   "price":  61895
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L71RWG13189",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  9524,
+                         "location":  "San Antonio, TX",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-18",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796531780",
+                                            "price":  49995
+                                        }
+                                    ],
+                         "lowestPrice":  49995,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-18",
+                                                  "price":  49995
                                               }
                                           ]
                      }
