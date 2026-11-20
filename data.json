@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-20T10:59:29-05:00",
+    "lastUpdated":  "2026-11-20T14:10:48-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1286,7 +1286,7 @@
                          "id":  "1FT6W3L78RWG26697",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  11707,
+                         "mileage":  11712,
                          "location":  "Ambler, PA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1321,6 +1321,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462374951",
+                                            "price":  53977
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/86866781-6426-4dad-8d16-a25635b1aab4/",
                                             "price":  53977
                                         }
                                     ],
@@ -3040,7 +3045,7 @@
                          "id":  "1FT6W5L75SWG08921",
                          "year":  2025,
                          "trim":  "Lariat",
-                         "mileage":  3550,
+                         "mileage":  3630,
                          "location":  "Maumee, OH",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3053,11 +3058,6 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464222359",
                                             "price":  64198
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796211818",
-                                            "price":  64498
                                         }
                                     ],
                          "lowestPrice":  64198,
@@ -3489,6 +3489,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796632911",
                                             "price":  69878
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464800856",
+                                            "price":  69878
                                         }
                                     ],
                          "lowestPrice":  69878,
@@ -3652,6 +3657,34 @@
                                               {
                                                   "date":  "2026-11-20",
                                                   "price":  65408
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L70SWG25623",
+                         "year":  2025,
+                         "trim":  "Platinum",
+                         "mileage":  9497,
+                         "location":  "Mount Juliet, TN",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-20",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796733445",
+                                            "price":  68683
+                                        }
+                                    ],
+                         "lowestPrice":  68683,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  68683
                                               }
                                           ]
                      }
