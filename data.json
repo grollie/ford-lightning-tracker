@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-19T14:09:18-05:00",
+    "lastUpdated":  "2026-11-19T20:09:14-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1724,7 +1724,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795147623",
-                                            "price":  54781
+                                            "price":  54681
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1732,7 +1732,7 @@
                                             "price":  59981
                                         }
                                     ],
-                         "lowestPrice":  54781,
+                         "lowestPrice":  54681,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
@@ -1750,6 +1750,10 @@
                                               {
                                                   "date":  "2026-11-12",
                                                   "price":  54781
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  54681
                                               }
                                           ]
                      },
@@ -2039,7 +2043,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-03",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -2068,7 +2072,8 @@
                                                   "date":  "2026-11-17",
                                                   "price":  54579
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-19"
                      },
                      {
                          "id":  "1FT6W7L73SWG18181",
@@ -3275,7 +3280,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796233522",
-                                            "price":  55084
+                                            "price":  55206
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -3283,12 +3288,16 @@
                                             "price":  55121
                                         }
                                     ],
-                         "lowestPrice":  55084,
-                         "lowestSource":  "AutoTrader",
+                         "lowestPrice":  55121,
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-16",
                                                   "price":  55084
+                                              },
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  55121
                                               }
                                           ]
                      },
@@ -3528,6 +3537,67 @@
                                               {
                                                   "date":  "2026-11-19",
                                                   "price":  69878
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L71RWG20235",
+                         "year":  2024,
+                         "trim":  "Lariat",
+                         "mileage":  16982,
+                         "location":  "Watsonville, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-19",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796660476",
+                                            "price":  59805
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464738366",
+                                            "price":  59892
+                                        }
+                                    ],
+                         "lowestPrice":  59805,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  59805
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L79SWG29738",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  19842,
+                         "location":  "Yarmouth, ME",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-19",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796521061",
+                                            "price":  61484
+                                        }
+                                    ],
+                         "lowestPrice":  61484,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-19",
+                                                  "price":  61484
                                               }
                                           ]
                      }
