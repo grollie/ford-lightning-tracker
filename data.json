@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-20T02:09:47-05:00",
+    "lastUpdated":  "2026-11-20T10:59:29-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2983,7 +2983,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796162364",
-                                            "price":  64899
+                                            "price":  64174
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2991,8 +2991,8 @@
                                             "price":  64500
                                         }
                                     ],
-                         "lowestPrice":  64500,
-                         "lowestSource":  "Cars.com",
+                         "lowestPrice":  64174,
+                         "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-13",
@@ -3001,6 +3001,10 @@
                                               {
                                                   "date":  "2026-11-20",
                                                   "price":  64500
+                                              },
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  64174
                                               }
                                           ]
                      },
@@ -3053,7 +3057,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796211818",
-                                            "price":  64198
+                                            "price":  64498
                                         }
                                     ],
                          "lowestPrice":  64198,
@@ -3554,6 +3558,100 @@
                                               {
                                                   "date":  "2026-11-19",
                                                   "price":  61484
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU5SWG28032",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  3031,
+                         "location":  "Raleigh, NC",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-20",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796710587",
+                                            "price":  60884
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464782103",
+                                            "price":  60884
+                                        }
+                                    ],
+                         "lowestPrice":  60884,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  60884
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L78RWG07860",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  17252,
+                         "location":  "Seattle, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-20",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796654614",
+                                            "price":  61900
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464713455",
+                                            "price":  61900
+                                        }
+                                    ],
+                         "lowestPrice":  61900,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  61900
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L76RWG11610",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  14217,
+                         "location":  "Frankfort, IL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-20",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464784608",
+                                            "price":  65408
+                                        }
+                                    ],
+                         "lowestPrice":  65408,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  65408
                                               }
                                           ]
                      }
