@@ -199,6 +199,12 @@
   footer a { color: var(--text-secondary); }
 
   .sparkline { display: block; }
+  .change-date {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+    white-space: nowrap;
+  }
 
   .price-cell { display: flex; flex-direction: column; gap: 2px; }
   .price-best {
@@ -240,14 +246,14 @@
   <section class="panel">
     <div class="panel-head">
       <h2 id="tracked-heading">Price Tracker</h2>
-      <p id="tracked-desc">Every qualifying listing within the tracked price range, with day-over-day price movement.</p>
+      <p id="tracked-desc">Every qualifying listing within the tracked price range, with its price trend and most recent price change.</p>
     </div>
     <div id="tracked-table-wrap"></div>
   </section>
 
   <footer>
     Data is pulled from public listing pages (AutoTrader, Cars.com, CarGurus, TrueCar, CarMax, and individual
-    U.S. dealership sites) once a day. When the same VIN turns up on more than one site, every source's price
+    U.S. dealership sites) four times a day. When the same VIN turns up on more than one site, every source's price
     is shown, with the lowest highlighted. Mileage, Pro Power Onboard equipment, and accident-history badges
     are as reported by each listing site and are not independently verified — always confirm with the dealer
     and a vehicle history report before buying.
@@ -319,7 +325,12 @@ function deltaBadge(history, firstSeen) {
   if (diff === 0) return '<span class="badge flat">FLAT</span>';
   const cls = diff < 0 ? 'good' : 'critical';
   const arrow = diff < 0 ? '↓' : '↑';
-  return `<span class="badge ${cls}">${arrow} ${CURRENCY.format(Math.abs(diff))}</span>`;
+  // The badge shows the most recent change, which may be weeks old, so say when it happened.
+  const lastDate = history[history.length - 1].date;
+  const when = isToday(lastDate)
+    ? 'today'
+    : parseDate(lastDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return `<span class="badge ${cls}">${arrow} ${CURRENCY.format(Math.abs(diff))}</span><div class="change-date">${esc(when)}</div>`;
 }
 
 function priceCellHtml(l) {
@@ -335,9 +346,11 @@ function priceCellHtml(l) {
 }
 
 function bestUrl(l) {
-  if (!l.prices || !l.prices.length) return l.url || '#';
+  // URLs come from scraped listing pages, so only ever link to plain web addresses.
+  const safe = u => (typeof u === 'string' && /^https?:\/\//i.test(u)) ? u : '#';
+  if (!l.prices || !l.prices.length) return safe(l.url);
   const best = l.prices.find(p => p.price === l.lowestPrice) || l.prices[0];
-  return best.url || '#';
+  return safe(best.url);
 }
 
 function rowHtml(l, opts) {
@@ -427,11 +440,11 @@ async function init() {
   document.getElementById('alert-heading').textContent = `New Matches — Under ${CURRENCY.format(alertMax)}`;
   document.getElementById('alert-desc').textContent = `Meets all criteria and priced under the ${CURRENCY.format(alertMax)} alert threshold.`;
   document.getElementById('tracked-heading').textContent = `Price Tracker — ${CURRENCY.format(trackedMax)} and Under`;
-  document.getElementById('tracked-desc').textContent = `Every qualifying listing at or below ${CURRENCY.format(trackedMax)}, with day-over-day price movement.`;
+  document.getElementById('tracked-desc').textContent = `Every qualifying listing at or below ${CURRENCY.format(trackedMax)}, with its price trend and most recent price change.`;
 
   const byPrice = (a, b) => a.lowestPrice - b.lowestPrice;
   const active = listings.filter(l => l.lowestPrice != null && l.status !== 'removed');
-  const alertListings = active.filter(l => l.lowestPrice <= alertMax).sort(byPrice);
+  const alertListings = active.filter(l => l.lowestPrice < alertMax).sort(byPrice);
   const trackedListings = active.filter(l => l.lowestPrice <= trackedMax).sort(byPrice);
 
   renderTiles(alertListings, trackedListings, alertMax, trackedMax);
