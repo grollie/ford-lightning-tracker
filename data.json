@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-19T20:09:14-05:00",
+    "lastUpdated":  "2026-11-20T02:09:47-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -355,16 +355,20 @@
                                               {
                                                   "date":  "2026-11-03",
                                                   "price":  54500
+                                              },
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  53500
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/792472917",
-                                            "price":  54500
+                                            "price":  53500
                                         }
                                     ],
-                         "lowestPrice":  54500,
+                         "lowestPrice":  53500,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -821,6 +825,11 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/793003972",
                                             "price":  60000
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/460981816",
+                                            "price":  60200
                                         }
                                     ],
                          "lowestPrice":  60000,
@@ -1592,39 +1601,6 @@
                                     ],
                          "lowestPrice":  64981,
                          "lowestSource":  "Cars.com"
-                     },
-                     {
-                         "id":  "1FT6W5L79SWG11739",
-                         "year":  2025,
-                         "trim":  "Lariat",
-                         "mileage":  15824,
-                         "location":  "Charlotte, NC",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-10-30",
-                         "status":  "removed",
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/463026927",
-                                            "price":  59797
-                                        }
-                                    ],
-                         "lowestPrice":  59797,
-                         "lowestSource":  "CarGurus",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-10-30",
-                                                  "price":  58898
-                                              },
-                                              {
-                                                  "date":  "2026-11-13",
-                                                  "price":  59797
-                                              }
-                                          ],
-                         "removedDate":  "2026-11-14"
                      },
                      {
                          "id":  "1FT6W7L71RWG25883",
@@ -2686,7 +2662,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/790188634",
-                                            "price":  56000
+                                            "price":  55900
                                         },
                                         {
                                             "source":  "Cars.com",
@@ -2694,12 +2670,16 @@
                                             "price":  56300
                                         }
                                     ],
-                         "lowestPrice":  56000,
+                         "lowestPrice":  55900,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-11",
                                                   "price":  56000
+                                              },
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  55900
                                               }
                                           ]
                      },
@@ -2735,35 +2715,6 @@
                                                   "price":  53495
                                               }
                                           ]
-                     },
-                     {
-                         "id":  "1FT6W5L7XSWG17646",
-                         "year":  2025,
-                         "trim":  "Lariat",
-                         "mileage":  18680,
-                         "location":  "Davenport, IA",
-                         "proPower":  true,
-                         "extendedRangeBattery":  true,
-                         "epaRangeMiles":  320,
-                         "noAccidents":  true,
-                         "firstSeen":  "2026-11-12",
-                         "status":  "removed",
-                         "prices":  [
-                                        {
-                                            "source":  "CarGurus",
-                                            "url":  "https://www.cargurus.com/details/464078037",
-                                            "price":  60589
-                                        }
-                                    ],
-                         "lowestPrice":  60589,
-                         "lowestSource":  "CarGurus",
-                         "priceHistory":  [
-                                              {
-                                                  "date":  "2026-11-12",
-                                                  "price":  60589
-                                              }
-                                          ],
-                         "removedDate":  "2026-11-14"
                      },
                      {
                          "id":  "1FT6W1EV6PWG07837",
@@ -3037,15 +2988,19 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/28a2ff8e-a7ee-48aa-8481-934a35fdbf05/",
-                                            "price":  65225
+                                            "price":  64500
                                         }
                                     ],
-                         "lowestPrice":  64899,
-                         "lowestSource":  "CarGurus",
+                         "lowestPrice":  64500,
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  64899
+                                              },
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  64500
                                               }
                                           ]
                      },
@@ -3495,7 +3450,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-19",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3510,7 +3465,8 @@
                                                   "date":  "2026-11-19",
                                                   "price":  49406
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-20"
                      },
                      {
                          "id":  "1FT6W7L77RWG05816",
