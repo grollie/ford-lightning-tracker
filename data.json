@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-20T20:08:09-05:00",
+    "lastUpdated":  "2026-11-20T20:11:02-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1066,7 +1066,7 @@
                          "id":  "1FT6W7L7XRWG16907",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  17708,
+                         "mileage":  17707,
                          "location":  "Miami, FL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1620,7 +1620,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-31",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-31",
@@ -1652,7 +1652,8 @@
                                         }
                                     ],
                          "lowestPrice":  63597,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-20"
                      },
                      {
                          "id":  "1FT6W1EV8PWG53900",
@@ -2346,7 +2347,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -2366,7 +2367,8 @@
                                                   "date":  "2026-11-08",
                                                   "price":  64088
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-20"
                      },
                      {
                          "id":  "1FT6W1EV2PWG29267",
@@ -3064,7 +3066,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-13",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -3079,7 +3081,8 @@
                                                   "date":  "2026-11-13",
                                                   "price":  64198
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-20"
                      },
                      {
                          "id":  "1FTVW3L7XRWG20105",
@@ -3697,6 +3700,34 @@
                                               {
                                                   "date":  "2026-11-20",
                                                   "price":  68683
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU7SWG13449",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  16781,
+                         "location":  "Mentor, OH",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-20",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796742259",
+                                            "price":  56438
+                                        }
+                                    ],
+                         "lowestPrice":  56438,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-20",
+                                                  "price":  56438
                                               }
                                           ]
                      }
