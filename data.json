@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-21T20:11:29-05:00",
+    "lastUpdated":  "2026-11-22T02:11:51-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -697,7 +697,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-18",
@@ -734,7 +734,8 @@
                                         }
                                     ],
                          "lowestPrice":  60295,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-22"
                      },
                      {
                          "id":  "1FT6W1EV0PWG35259",
@@ -3830,6 +3831,34 @@
                                               {
                                                   "date":  "2026-11-21",
                                                   "price":  60098
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L76SWG16476",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  18166,
+                         "location":  "Gaithersburg, MD",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-22",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/462003621",
+                                            "price":  58297
+                                        }
+                                    ],
+                         "lowestPrice":  58297,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-22",
+                                                  "price":  58297
                                               }
                                           ]
                      }
