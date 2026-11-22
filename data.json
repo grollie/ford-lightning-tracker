@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-22T02:11:51-05:00",
+    "lastUpdated":  "2026-11-22T08:08:57-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3859,6 +3859,34 @@
                                               {
                                                   "date":  "2026-11-22",
                                                   "price":  58297
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L78RWG03338",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  19647,
+                         "location":  "Auburn, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-22",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796261225",
+                                            "price":  58934
+                                        }
+                                    ],
+                         "lowestPrice":  58934,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-22",
+                                                  "price":  58934
                                               }
                                           ]
                      }
