@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-22T20:07:14-05:00",
+    "lastUpdated":  "2026-11-22T20:10:06-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2527,7 +2527,7 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/f093bdaf-70c7-493c-9609-b2b2b7fd3b7d/",
-                                            "price":  61954
+                                            "price":  59869
                                         }
                                     ],
                          "lowestPrice":  59869,
@@ -3168,7 +3168,8 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-14",
-                         "status":  "active",
+                         "status":  "removed",
+                         "removedDate":  "2026-11-22",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
