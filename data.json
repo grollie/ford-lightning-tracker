@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-23T02:09:04-05:00",
+    "lastUpdated":  "2026-11-23T08:10:39-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1041,6 +1041,10 @@
                                               {
                                                   "date":  "2026-11-22",
                                                   "price":  56125
+                                              },
+                                              {
+                                                  "date":  "2026-11-23",
+                                                  "price":  55692
                                               }
                                           ],
                          "prices":  [
@@ -1052,15 +1056,15 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794215467",
-                                            "price":  56162
+                                            "price":  55729
                                         },
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462202764",
-                                            "price":  56125
+                                            "price":  55692
                                         }
                                     ],
-                         "lowestPrice":  56125,
+                         "lowestPrice":  55692,
                          "lowestSource":  "CarGurus"
                      },
                      {
@@ -3130,7 +3134,8 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-14",
-                         "status":  "active",
+                         "status":  "removed",
+                         "removedDate":  "2026-11-23",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3924,6 +3929,34 @@
                                               {
                                                   "date":  "2026-11-23",
                                                   "price":  55990
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L77RWG07722",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  11874,
+                         "location":  "Gresham, OR",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-23",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796905508",
+                                            "price":  58057
+                                        }
+                                    ],
+                         "lowestPrice":  58057,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-23",
+                                                  "price":  58057
                                               }
                                           ]
                      }
