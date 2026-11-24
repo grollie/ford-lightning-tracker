@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T02:09:08-05:00",
+    "lastUpdated":  "2026-11-24T02:11:06-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1362,7 +1362,7 @@
                          "epaRangeMiles":  300,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1381,7 +1381,8 @@
                                         }
                                     ],
                          "lowestPrice":  63357,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-24"
                      },
                      {
                          "id":  "1FT6W3LU1SWG14810",
@@ -1951,7 +1952,7 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463185782",
-                                            "price":  60165
+                                            "price":  59363
                                         }
                                     ],
                          "lowestPrice":  59363,
@@ -3596,6 +3597,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464738366",
+                                            "price":  59892
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/769ac3f0-8611-4763-b464-191975c9385f/",
                                             "price":  59892
                                         }
                                     ],
