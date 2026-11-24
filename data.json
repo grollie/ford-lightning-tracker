@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T08:08:42-05:00",
+    "lastUpdated":  "2026-11-24T14:11:15-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -936,7 +936,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -969,7 +969,8 @@
                                         }
                                     ],
                          "lowestPrice":  60005,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-24"
                      },
                      {
                          "id":  "1FT6W3LU0SWG22638",
@@ -1133,21 +1134,16 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/87171915-77d0-475b-9db9-9044a4fb7b99/",
-                                            "price":  65448
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794321943",
                                             "price":  63048
                                         },
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/462643598",
-                                            "price":  63248
+                                            "price":  63048
                                         }
                                     ],
                          "lowestPrice":  63048,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "Cars.com"
                      },
                      {
                          "id":  "1FT6W5L79SWG21803",
@@ -3765,15 +3761,19 @@
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/9cb18ac9-c87c-4411-8b20-e7b75de3b9e1/",
-                                            "price":  68683
+                                            "price":  68645
                                         }
                                     ],
-                         "lowestPrice":  68683,
+                         "lowestPrice":  68645,
                          "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-20",
                                                   "price":  68683
+                                              },
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  68645
                                               }
                                           ]
                      },
@@ -4117,6 +4117,34 @@
                                               {
                                                   "date":  "2026-11-24",
                                                   "price":  63987
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L70SWG00088",
+                         "year":  2025,
+                         "trim":  "Platinum",
+                         "mileage":  19196,
+                         "location":  "Manassas, VA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795632379",
+                                            "price":  70000
+                                        }
+                                    ],
+                         "lowestPrice":  70000,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  70000
                                               }
                                           ]
                      }
