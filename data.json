@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-23T14:10:20-05:00",
+    "lastUpdated":  "2026-11-23T20:09:54-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3971,6 +3971,62 @@
                                               {
                                                   "date":  "2026-11-23",
                                                   "price":  58057
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU1SWG23605",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  8020,
+                         "location":  "Huntsville, AL",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-23",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796930253",
+                                            "price":  55639
+                                        }
+                                    ],
+                         "lowestPrice":  55639,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-23",
+                                                  "price":  55639
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W7L77RWG16315",
+                         "year":  2024,
+                         "trim":  "Platinum",
+                         "mileage":  14061,
+                         "location":  "Dillsburg, PA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-23",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/465003431",
+                                            "price":  64990
+                                        }
+                                    ],
+                         "lowestPrice":  64990,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-23",
+                                                  "price":  64990
                                               }
                                           ]
                      }
