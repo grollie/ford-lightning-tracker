@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T02:11:06-05:00",
+    "lastUpdated":  "2026-11-24T08:08:42-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -4051,6 +4051,72 @@
                                               {
                                                   "date":  "2026-11-23",
                                                   "price":  64990
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L75RWG27533",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  18515,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796954284",
+                                            "price":  60987
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/465049185",
+                                            "price":  61187
+                                        }
+                                    ],
+                         "lowestPrice":  60987,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  60987
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW5L73RWG03237",
+                         "year":  2024,
+                         "trim":  "Lariat",
+                         "mileage":  12362,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796954287",
+                                            "price":  63987
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/465049191",
+                                            "price":  64187
+                                        }
+                                    ],
+                         "lowestPrice":  63987,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  63987
                                               }
                                           ]
                      }
