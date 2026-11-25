@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-25T08:11:41-05:00",
+    "lastUpdated":  "2026-11-25T14:07:21-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -4372,7 +4372,7 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797085814",
-                                            "price":  57999
+                                            "price":  57914
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -4380,12 +4380,16 @@
                                             "price":  57999
                                         }
                                     ],
-                         "lowestPrice":  57999,
+                         "lowestPrice":  57914,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-25",
                                                   "price":  57999
+                                              },
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  57914
                                               }
                                           ]
                      },
