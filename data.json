@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T14:11:15-05:00",
+    "lastUpdated":  "2026-11-24T20:10:24-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1281,16 +1281,20 @@
                                               {
                                                   "date":  "2026-11-15",
                                                   "price":  67436
+                                              },
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  66436
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/6932cc25-4e23-4f1c-830a-b8880e96099c/",
-                                            "price":  67436
+                                            "price":  66436
                                         }
                                     ],
-                         "lowestPrice":  67436,
+                         "lowestPrice":  66436,
                          "lowestSource":  "Cars.com"
                      },
                      {
@@ -1384,7 +1388,7 @@
                          "id":  "1FT6W3LU1SWG14810",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  8941,
+                         "mileage":  9107,
                          "location":  "Forsyth, GA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -1400,13 +1404,17 @@
                                               {
                                                   "date":  "2026-11-09",
                                                   "price":  58789
+                                              },
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  54820
                                               }
                                           ],
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794241802",
-                                            "price":  58789
+                                            "price":  54820
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -1414,7 +1422,7 @@
                                             "price":  58999
                                         }
                                     ],
-                         "lowestPrice":  58789,
+                         "lowestPrice":  54820,
                          "lowestSource":  "AutoTrader"
                      },
                      {
@@ -3642,7 +3650,7 @@
                          "id":  "1FT6W3LU5SWG28032",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  3031,
+                         "mileage":  3043,
                          "location":  "Raleigh, NC",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -3659,6 +3667,11 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464782103",
+                                            "price":  62894
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/61cf7372-6218-4627-bfac-456586abbb59/",
                                             "price":  62894
                                         }
                                     ],
@@ -4025,7 +4038,7 @@
                          "id":  "1FT6W7L77RWG16315",
                          "year":  2024,
                          "trim":  "Platinum",
-                         "mileage":  14061,
+                         "mileage":  14062,
                          "location":  "Dillsburg, PA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -4042,6 +4055,11 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796937675",
+                                            "price":  64990
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/547d40b7-7122-4e87-9d14-e30dea1db455/",
                                             "price":  64990
                                         }
                                     ],
@@ -4076,6 +4094,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/465049185",
                                             "price":  61187
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/ed930143-761c-46d3-b3c5-1d5db16f3a98/",
+                                            "price":  60987
                                         }
                                     ],
                          "lowestPrice":  60987,
@@ -4109,6 +4132,11 @@
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/465049191",
                                             "price":  64187
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/36d26995-d3e1-4a1d-8111-a113729959d9/",
+                                            "price":  63987
                                         }
                                     ],
                          "lowestPrice":  63987,
@@ -4145,6 +4173,123 @@
                                               {
                                                   "date":  "2026-11-24",
                                                   "price":  70000
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU5SWG11263",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  13720,
+                         "location":  "Buellton, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797031010",
+                                            "price":  61523
+                                        }
+                                    ],
+                         "lowestPrice":  61523,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  61523
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FTVW3L75RWG23557",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  15415,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797004855",
+                                            "price":  58987
+                                        }
+                                    ],
+                         "lowestPrice":  58987,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  58987
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L74SWG01088",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  10827,
+                         "location":  "Triadelphia, WV",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/465121484",
+                                            "price":  57386
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/afa2c0af-1a21-4ea4-8669-573bb7789e84/",
+                                            "price":  57386
+                                        }
+                                    ],
+                         "lowestPrice":  57386,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  57386
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L73SWG05679",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  17150,
+                         "location":  "Farmington, NY",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-24",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/6d1dff7d-af09-40cc-bc33-5c88603ba97a/",
+                                            "price":  56170
+                                        }
+                                    ],
+                         "lowestPrice":  56170,
+                         "lowestSource":  "Cars.com",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-24",
+                                                  "price":  56170
                                               }
                                           ]
                      }
