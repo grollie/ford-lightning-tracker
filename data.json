@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T20:12:56-05:00",
+    "lastUpdated":  "2026-11-25T02:10:57-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2103,12 +2103,12 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/792800480",
-                                            "price":  68191
+                                            "price":  67255
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/6d2b4cf8-6c8d-4a16-988e-d5f50cdd4e13/",
-                                            "price":  68191
+                                            "price":  67255
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2116,12 +2116,16 @@
                                             "price":  68191
                                         }
                                     ],
-                         "lowestPrice":  68191,
+                         "lowestPrice":  67255,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-06",
                                                   "price":  68191
+                                              },
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  67255
                                               }
                                           ]
                      },
@@ -3106,15 +3110,19 @@
                                         {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/464210490",
-                                            "price":  59995
+                                            "price":  59895
                                         }
                                     ],
-                         "lowestPrice":  59995,
+                         "lowestPrice":  59895,
                          "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-13",
                                                   "price":  59995
+                                              },
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  59895
                                               }
                                           ]
                      },
@@ -4209,7 +4217,7 @@
                          "id":  "1FTVW3L75RWG23557",
                          "year":  2024,
                          "trim":  "Flash",
-                         "mileage":  15415,
+                         "mileage":  15413,
                          "location":  "Kent, WA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -4221,15 +4229,19 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797004855",
-                                            "price":  58987
+                                            "price":  60987
                                         }
                                     ],
-                         "lowestPrice":  58987,
+                         "lowestPrice":  60987,
                          "lowestSource":  "AutoTrader",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-24",
                                                   "price":  58987
+                                              },
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  60987
                                               }
                                           ]
                      },
@@ -4291,6 +4303,34 @@
                                               {
                                                   "date":  "2026-11-24",
                                                   "price":  56170
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W5L74SWG01023",
+                         "year":  2025,
+                         "trim":  "Lariat",
+                         "mileage":  6914,
+                         "location":  "Chambersburg, PA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-25",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797055739",
+                                            "price":  60892
+                                        }
+                                    ],
+                         "lowestPrice":  60892,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  60892
                                               }
                                           ]
                      }
