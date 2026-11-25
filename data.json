@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-24T20:10:24-05:00",
+    "lastUpdated":  "2026-11-24T20:12:56-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2442,7 +2442,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-08",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -2471,7 +2471,8 @@
                                                   "date":  "2026-11-09",
                                                   "price":  58688
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-24"
                      },
                      {
                          "id":  "1FT6W3LU6SWG21333",
