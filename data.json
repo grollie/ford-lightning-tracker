@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-25T14:07:21-05:00",
+    "lastUpdated":  "2026-11-25T14:10:00-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -3509,7 +3509,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -3529,7 +3529,8 @@
                                                   "date":  "2026-11-18",
                                                   "price":  49995
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-25"
                      },
                      {
                          "id":  "1FT6W3L7XRWG22179",
@@ -4479,6 +4480,34 @@
                                               {
                                                   "date":  "2026-11-25",
                                                   "price":  67322
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L70SWG01539",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  13915,
+                         "location":  "Fairfield, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  300,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-25",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464885980",
+                                            "price":  57076
+                                        }
+                                    ],
+                         "lowestPrice":  57076,
+                         "lowestSource":  "CarGurus",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-25",
+                                                  "price":  57076
                                               }
                                           ]
                      }
