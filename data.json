@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-25T20:09:42-05:00",
+    "lastUpdated":  "2026-11-25T20:11:05-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1057,11 +1057,6 @@
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/a591f95c-0c43-45dc-9699-7cc7d4f7b79a/",
                                             "price":  56262
-                                        },
-                                        {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/794215467",
-                                            "price":  55729
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2692,7 +2687,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-11",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -2716,7 +2711,8 @@
                                                   "date":  "2026-11-19",
                                                   "price":  65998
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-25"
                      },
                      {
                          "id":  "1FTVW3LU6SWG05967",
@@ -3432,7 +3428,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-18",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -3447,7 +3443,8 @@
                                                   "date":  "2026-11-18",
                                                   "price":  54744
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-25"
                      },
                      {
                          "id":  "1FTVW5L79SWG16242",
@@ -4504,7 +4501,7 @@
                          "id":  "1FT6W3L70SWG01539",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  13915,
+                         "mileage":  13926,
                          "location":  "Fairfield, CA",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
