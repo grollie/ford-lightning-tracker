@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-26T08:11:11-05:00",
+    "lastUpdated":  "2026-11-26T14:12:22-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1230,7 +1230,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-10-28",
-                         "status":  "active",
+                         "status":  "removed",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-10-28",
@@ -1263,7 +1263,8 @@
                                         }
                                     ],
                          "lowestPrice":  55903,
-                         "lowestSource":  "AutoTrader"
+                         "lowestSource":  "AutoTrader",
+                         "removedDate":  "2026-11-26"
                      },
                      {
                          "id":  "1FT6W7L71RWG05617",
@@ -1730,7 +1731,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-01",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -1766,7 +1767,8 @@
                                                   "date":  "2026-11-19",
                                                   "price":  54681
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-26"
                      },
                      {
                          "id":  "1FTVW3L78RWG02797",
@@ -1961,18 +1963,13 @@
                          "status":  "active",
                          "prices":  [
                                         {
-                                            "source":  "AutoTrader",
-                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795186442",
-                                            "price":  59363
-                                        },
-                                        {
                                             "source":  "CarGurus",
                                             "url":  "https://www.cargurus.com/details/463185782",
                                             "price":  59363
                                         }
                                     ],
                          "lowestPrice":  59363,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-03",
@@ -4463,7 +4460,7 @@
                          "id":  "1FT6W5L77SWG30273",
                          "year":  2025,
                          "trim":  "Lariat",
-                         "mileage":  3602,
+                         "mileage":  3607,
                          "location":  "The Dalles, OR",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -4583,6 +4580,34 @@
                                               {
                                                   "date":  "2026-11-26",
                                                   "price":  62987
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3LU2SWG11740",
+                         "year":  2025,
+                         "trim":  "Flash",
+                         "mileage":  11177,
+                         "location":  "Costa Mesa, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-26",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797197322",
+                                            "price":  60888
+                                        }
+                                    ],
+                         "lowestPrice":  60888,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-26",
+                                                  "price":  60888
                                               }
                                           ]
                      }
