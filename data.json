@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-25T20:11:05-05:00",
+    "lastUpdated":  "2026-11-26T02:09:37-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2584,12 +2584,12 @@
                                         {
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/795838075",
-                                            "price":  55922
+                                            "price":  55923
                                         },
                                         {
                                             "source":  "Cars.com",
                                             "url":  "https://www.cars.com/vehicledetail/ae510ee5-c024-42e2-a903-277c6820214a/",
-                                            "price":  56043
+                                            "price":  55922
                                         },
                                         {
                                             "source":  "CarGurus",
@@ -2598,7 +2598,7 @@
                                         }
                                     ],
                          "lowestPrice":  55922,
-                         "lowestSource":  "AutoTrader",
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-10",
@@ -3962,10 +3962,15 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796261225",
                                             "price":  58465
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/464300679",
+                                            "price":  58462
                                         }
                                     ],
-                         "lowestPrice":  58465,
-                         "lowestSource":  "AutoTrader",
+                         "lowestPrice":  58462,
+                         "lowestSource":  "CarGurus",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-22",
@@ -3974,6 +3979,10 @@
                                               {
                                                   "date":  "2026-11-25",
                                                   "price":  58465
+                                              },
+                                              {
+                                                  "date":  "2026-11-26",
+                                                  "price":  58462
                                               }
                                           ]
                      },
@@ -4522,6 +4531,34 @@
                                               {
                                                   "date":  "2026-11-25",
                                                   "price":  57076
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L72RWG16277",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  15626,
+                         "location":  "Kent, WA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-26",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797163807",
+                                            "price":  62987
+                                        }
+                                    ],
+                         "lowestPrice":  62987,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-26",
+                                                  "price":  62987
                                               }
                                           ]
                      }
