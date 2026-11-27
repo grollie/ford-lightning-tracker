@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-27T02:09:06-05:00",
+    "lastUpdated":  "2026-11-27T08:08:39-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -1960,7 +1960,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-03",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "CarGurus",
@@ -1983,7 +1983,8 @@
                                                   "date":  "2026-11-24",
                                                   "price":  59363
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-27"
                      },
                      {
                          "id":  "1FT6W5L72SWG00937",
@@ -4062,7 +4063,7 @@
                          "id":  "1FT6W3LU1SWG23605",
                          "year":  2025,
                          "trim":  "Flash",
-                         "mileage":  8020,
+                         "mileage":  8500,
                          "location":  "Huntsville, AL",
                          "proPower":  true,
                          "extendedRangeBattery":  true,
@@ -4075,14 +4076,23 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796930253",
                                             "price":  55639
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/24aa2d3b-2349-4e88-b98e-c5e214570d4b/",
+                                            "price":  54990
                                         }
                                     ],
-                         "lowestPrice":  55639,
-                         "lowestSource":  "AutoTrader",
+                         "lowestPrice":  54990,
+                         "lowestSource":  "Cars.com",
                          "priceHistory":  [
                                               {
                                                   "date":  "2026-11-23",
                                                   "price":  55639
+                                              },
+                                              {
+                                                  "date":  "2026-11-27",
+                                                  "price":  54990
                                               }
                                           ]
                      },
@@ -4623,6 +4633,34 @@
                                               {
                                                   "date":  "2026-11-26",
                                                   "price":  60888
+                                              }
+                                          ]
+                     },
+                     {
+                         "id":  "1FT6W3L70RWG22241",
+                         "year":  2024,
+                         "trim":  "Flash",
+                         "mileage":  13893,
+                         "location":  "Redwood City, CA",
+                         "proPower":  true,
+                         "extendedRangeBattery":  true,
+                         "epaRangeMiles":  320,
+                         "noAccidents":  true,
+                         "firstSeen":  "2026-11-27",
+                         "status":  "active",
+                         "prices":  [
+                                        {
+                                            "source":  "AutoTrader",
+                                            "url":  "https://www.autotrader.com/cars-for-sale/vehicle/796638583",
+                                            "price":  54802
+                                        }
+                                    ],
+                         "lowestPrice":  54802,
+                         "lowestSource":  "AutoTrader",
+                         "priceHistory":  [
+                                              {
+                                                  "date":  "2026-11-27",
+                                                  "price":  54802
                                               }
                                           ]
                      }
