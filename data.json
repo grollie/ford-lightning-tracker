@@ -1,5 +1,5 @@
 {
-    "lastUpdated":  "2026-11-26T14:12:22-05:00",
+    "lastUpdated":  "2026-11-26T20:09:41-05:00",
     "criteria":  {
                      "alert":  {
                                    "maxMileage":  20000,
@@ -2879,7 +2879,7 @@
                          "epaRangeMiles":  320,
                          "noAccidents":  true,
                          "firstSeen":  "2026-11-12",
-                         "status":  "active",
+                         "status":  "removed",
                          "prices":  [
                                         {
                                             "source":  "AutoTrader",
@@ -2894,7 +2894,8 @@
                                                   "date":  "2026-11-12",
                                                   "price":  56824
                                               }
-                                          ]
+                                          ],
+                         "removedDate":  "2026-11-26"
                      },
                      {
                          "id":  "1FT6W1EV8PWG13624",
@@ -4600,6 +4601,16 @@
                                             "source":  "AutoTrader",
                                             "url":  "https://www.autotrader.com/cars-for-sale/vehicle/797197322",
                                             "price":  60888
+                                        },
+                                        {
+                                            "source":  "CarGurus",
+                                            "url":  "https://www.cargurus.com/details/465324952",
+                                            "price":  60973
+                                        },
+                                        {
+                                            "source":  "Cars.com",
+                                            "url":  "https://www.cars.com/vehicledetail/f216d39b-57cd-43ac-99d0-d83ad5e08c14/",
+                                            "price":  60973
                                         }
                                     ],
                          "lowestPrice":  60888,
